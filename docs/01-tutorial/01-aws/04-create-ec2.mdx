@@ -1,0 +1,114 @@
+---
+sidebar_position: 4
+---
+
+# Create an EC2 Instance
+
+We will use a script to create our first EC2 instance.
+
+It is important to understand that anytime you execute a script in cloudshell
+the script operates with your credentials and as such you should be careful of
+the scripts you execute.
+
+Enter the following command to view the script without executing it.
+
+```bash
+cd ~/s3d-tutorial-start
+vim ./scripts/create-ec2-instance
+```
+
+The script performs the following:
+
+1. Creates an EC2 Key named "s3d-k1"
+1. Creates a PEM file that allows you to access the instance via SSH
+1. Creates an EC2 Security Group for SSH Access
+1. Starts an EC2 instance
+
+As you review the comments in the script using VIM you may with to use a search
+engine such as Google to locate and review the associated AWS documentation.
+
+Once you are comfortable with your understanding of the script execute it as
+follows. (Remember to first exit VIM by typing `:` followed by `q`. Also, when
+you type the Bash commands try using the `<tab>` key as you enter the command
+_(i.e. `./scr<tab>/crea<tab>`)_.
+
+```bash
+./scripts/create-ec2-instance
+```
+## Use SSH to Access the EC2 instance
+
+The Security Group we are using to run this instance allows anyone in the world
+to attempt a connection provided they know the domain name that AWS has
+randomly selected for the EC2 instance and provided they send appropiate key
+information. The key information needed to establish the connection is saved in
+our CloudShell home directory in PEM file format. The DNS Name of the instance
+can be determined using the AWS CLI but only if the person issuing the commands
+has an the appropiate authorization. You now have your own virtual machine that
+runs in an AWS data center but this machine is secure provided you never share
+the PEM file with anyone else.
+
+We will use Vim to view a script that allows you to issue the SSH command. As
+we mentioned earlier it is a good practice to understand the scripts you
+execute. Since you will be executing this script in a CloudShell session you
+want to be certain that you understand the commnads contained with the script.
+
+To view the script issue the following command.
+
+```bash
+cd ~/s3d-tutorial-start
+vim ./scripts/ssh-to-s3d
+```
+
+When you are comfortable with your understanding of the script, exit VIM execute
+this script just like you executed the earlier one.
+
+A welcome message will be displayed and your EC2 session will start. In future
+tasks we will perform our work on the EC2 instance rather then directly using
+CloudShell because this provides us the ability to customize our enviornment
+and we can adjust the security priviliges within an EC2 instance to make it
+safe for us to donwload and execute code. Although in this tutorial we
+configure the EC2 instance with an adminstration level access key such a
+practice should be avoided when working professionally.
+
+In this case, you started your SSH session from your CloudShell session you can
+do this in the future but it far better to connect directly using a personal
+computer because alhough the web based interface to CloudShell works well there
+are other options that provide a better experience. The exact way you establish
+the connection will change depending on the type of computer you own but any
+technique you use will require the PEM file so it is important that you
+download it and keep it secure on your home computuer.
+
+To download the PEM file, use the **Actions** menu of the CloudShare interface
+and download the `~/.ssh/s3d-p1.pem` file. Store the file in an appropiate
+location on your personal computer and use it to issue the same command you see
+outputed when you run the `scripts/ssh-to-s3d` script.
+
+## Install GIT on the EC2 Instance
+
+The EC2 instance we created is at this point a basic server with only the
+standard AWS provided tools. The GIT tool was available to us when we were
+working on CloudShell but it has not yet been install on our new EC2 Instance.
+
+The following command uses the [Yellow Dog Update
+Manger](https://en.wikipedia.org/wiki/Yum_(software)) to install the `git`. The
+`git` program was pre-installed on the Cloudshell computer but the EC2 instance
+we have created is a bare enviornment with very few tools pre-installed. We
+like that the `yum` installer makes us think about food; it makes us smile and
+then we think about a cute yellow dog.
+
+```bash
+sudo yum install git 
+```
+
+Git is a tool for managing source code.
+
+In command above, we are issuing a `yum` package manager to perform the install
+of the `git` package using `sudo` in order to allow the us to execute the
+command with an elevated security level. The command `sudo` is a request for
+the *super* user to *do* something.
+
+With GIT installed you can now clone this repo on the EC2 instance.
+
+```bash
+git clone https://github.com/s3d-club/s3d-tutorial-start.git
+```

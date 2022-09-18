@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+
+cd docs/03-source/s3d-website/ || exit 99
+_s3d-semver-update ../../../docusaurus.config.js
