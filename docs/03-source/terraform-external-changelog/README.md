@@ -1,5 +1,7 @@
+---
+sidebar_position: 1
+---
 # Changelog Module
-
 This module uses our `s3d-current-release` script to read `CHANGELOG.md` in a
 given directory and report the latest version.
 
