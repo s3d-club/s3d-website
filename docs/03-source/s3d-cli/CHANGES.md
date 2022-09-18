@@ -23,6 +23,7 @@
 - Changed `s3d-install` so it setups command completion
 - Changed `s3d-install` to display version
 - Removed `git clean -fdx` from `s3d-install`
+- Updated `README.md`
 
 ## [Next](https://go.s3d.club/s3d-cli/next)
 - **TODO** Added CI/CD

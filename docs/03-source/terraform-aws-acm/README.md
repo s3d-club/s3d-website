@@ -1,9 +1,7 @@
 ---
 sidebar_position: 1
 ---
-
 # S3D TF AWS ACM
-
 S3D Club's fork of
 [github.com/terraform-aws-modules](https://github.com/terraform-aws-modules/terraform-aws-acm).
 

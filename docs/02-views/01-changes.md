@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
 ---
-
 # Changes 
 The S3D Club has strong views about the ideal structure for projects. The club
 is always seeking to improve our approaches and is open to your ideas. If you
@@ -47,20 +46,20 @@ other blank lines are part of this format.
 Blocks for released versions have the following format.
 
 ```markdown
-## [0.0.3](https://github-ish-site/project/tree/0.0.3)
+## [9.3.3](https://github-ish-site/project/tree/0.0.3)
 - Changed `Foo` be a `Mutator`
-- Changed `bar` to an `Accessor`
+- Completed [1839](./work/0939.md) with `bar` as an `Accessor`
 - Fixed `foodPrep` it no longer creates a panic
 ```
 
 ```markdown
-## [0.0.4-6](https://github-ish-site/project/tree/next)
+## [93.32.43-6](https://github-ish-site/project/tree/next)
 - **TODO** Added `dboMan` for new `Oak` serivce
 - **TODO** Changed `bar` fixed deadlock
 - **TODO** Changed `haxfoon` to be a public `Haxfoon`
 - Added `fuxing` as a private `Mutator` for CRUD
 - Added `xingbot` as a private `Wingbat`
-- Changed `Foo` fixed race condition
+- Fixed `Foo` race condition
 ```
 
 Pre-release versions have the same format with the exceptions that items in the
@@ -69,11 +68,22 @@ is in the block header. All pre-release are linked to the `next` branch of the
 code tree. The pre-release number is incremented when merges to the `next`
 branch.
 
-The language used in the bullet points is intentionally brief and intended only
+The language used in the work points are intentionally brief and intended only
 for consumption by the development teams. We encurage the use of markdown
 highlighting for words with special meaning with the exception that other then
 the `**TODO**` Prefix the first charactor of the item must be in he range of
-`[A-Z]` _(upper case only)_.
+`[A-Z]` _(upper case only)_. Each point is written as if it has aleady been
+completed such as `**TODO** Added 'dboMan'...` even though at the time of
+writing the item the work has not yet been started. Since we have the
+`**TODO**` prefex we know that the item is writen now for a future date when it
+will be completed.
+
+Items that can not be briefly described are linked to documents in
+`/work/0000.md` where fiels are defined that describe the work using past tense
+language. The `/work/` documents and the text of bullet points will be edited
+along the way. For case were the work can't yet be well described we do the
+best we can and know the document will be edited when the development work is
+performed.
 
 ### Next Block
 The final block of a `CHANGES.md` file lists the `next` planned changes. The
@@ -81,7 +91,7 @@ final block is always a reference to the `next` branch and as such using a [GIT
 workflow](/git-workflow) with a `next` branch is a requirement.
 
 ```markdown
-## [next](https://github-ish-site/project/project/tree/next)
+## [Next](https://github-ish-site/project/project/tree/next)
 - **TODO** Changed `bar` to use an `guru` pattern
 - **TODO** Removed `Foo`
 - **TODO** Fixed `Fuxing` crud panic
