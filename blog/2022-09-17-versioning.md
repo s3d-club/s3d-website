@@ -17,6 +17,9 @@ sites of their own and as such I want to share tools that I feel work well.
 The tools are not yet perfect but they are usable and with use we will develop
 ideas that help us design and improve in new versions.
 
+Working on the site and tools makes me think a lot about how the versions will
+be tracked in over future weeks, months, and years.
+
 Software development is tracked as versions. Currently,
 [GIT](https://git-scm.com/) is the most popular version tracking software is
 tool.
@@ -65,24 +68,20 @@ the numbers will fall where they happen to land.
 
 We use `semantic versioning` in all our repositories in our view everything is
 an API. We think of API both as `Application Programming Interface` and as
-`Application Person Interface`. The website is already at version `6.0.0` as I
-draft this blog post. This blog post will be part of the `7.0.0` release of the
-website because we don't plan to release just this blog post alone. The `7.0.0`
-release of the site will include a number of changes to existing pages and as
-such if a hypotetical person using the site depended on content that was there
-we would not be compatible with their
-[use-case](https://en.wikipedia.org/wiki/Use_case). For the website a `<MINOR>`
-release change can occur when new content is added **without** change or
-removal of existing content. The website will use `<PATCH>` for true bug fixes
-but in the near term with big changes every day the `<MAJOR>` version will be
-incremented at least once a week and sometimes multiple times per day when I
-work on it on weekends.
+`Application Person Interface`. We will track our version such that a brief
+glance at the version number provides information about the scale of change.
+For our Terraform modules we will use strict [semver](https://semver.org/).
 
-We do not yet have a non public development site and while [running a local
-developemnt](https://docusaurus.io/docs/installation#running-the-development-server)
-works well sometimes we release just because we want to see how the site looks
-and works on the [s3d.club](https://s3d.club) domain.
+Our user interfaces will also follow [semver](https://semver.org/). When for
+example the website has a big change in look, navigation, and/or totally new
+content areas it will receive a change to it's `<MAJOR>` component.  Our CLI
+tool will follow the same pattern as the website.
+
+The website is at version `0.0.2-1` as I draft this blog post. This blog post
+will be part of the `0.0.2` release. The site version relase will include a
+number of changes to existing pages but will not have a major or even minor
+redesign.
 
 You can engage using [GitHub](https://github.com/s3d-club/s3d-website)
-[issues](https://github.com/s3d-club/s3d-website/issues) and/or [contacting me
-via Facebook](https://www.facebook.com/mark.farnsworth.v2/).
+[issues](https://github.com/s3d-club/s3d-website/issues) and/or [contact me via
+Facebook](https://www.facebook.com/mark.farnsworth.v2/).
