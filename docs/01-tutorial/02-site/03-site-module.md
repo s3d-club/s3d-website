@@ -45,8 +45,7 @@ locals {
 }
 
 module "site" {
-  source  = "s3d-club/site/aws"
-  version = "2.0.0"
+  source  = "git::https://github.com/s3d-club/terraform-aws-site.git?ref=0.0.1"
 
   domain   = "${subdomain}.${base_domain}"
   key_name = "sre-k1"
