@@ -2,3 +2,4 @@
 
 cd "$(dirname "$0")"
 cp ../../../../${PWD##*/}/*.md .
+rm CHANGELOG.md
