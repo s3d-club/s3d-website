@@ -12,7 +12,7 @@
 - Renamed `Open Source Tools` category as `Projects`
 - Updated projects
 
-## [0.0.3-1](https://github.com/s3d-club/s3d-website/tree/work/0.0.3)
+## [0.0.3](https://github.com/s3d-club/s3d-website/tree/work/0.0.3)
 - Added `changes.html` for `redirect` to `go.s3d.club`
 - Fixed `terraform-aws-acm/s3d-pull` _(no CHANGELOG.md)_
 - Simplify `aws iam` bash in tutorial
