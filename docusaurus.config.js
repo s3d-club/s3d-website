@@ -102,7 +102,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v0.0.2-1, Copyright © ${new Date().getFullYear()} S3D Club`,
+        copyright: `v0.0.2, Copyright © ${new Date().getFullYear()} S3D Club`,
       },
       prism: {
         theme: lightCodeTheme,
