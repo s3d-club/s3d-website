@@ -1,11 +1,11 @@
 # Changes
-- This is a [CHANGES.md](https://go.s3d.club/changes/) file
+- This is a [CHANGES.md](https://go.s3d.club/changes.html) file
 
-## [0.0.1](https://go.s3d.club/s3d-cli/work/0.0.1)
+## [0.0.1](https://github.com/s3d-club/s3d-cli/tree/work/0.0.1)
 - Added `LICENSE`
 - **TODO** Added a limited but working CLI
 
-## [0.0.2-1](https://go.s3d.club/s3d-cli/work/0.0.2)
+## [0.0.2-1](https://github.com/s3d-club/s3d-cli/tree/work/0.0.2)
 - **TODO** Add `git add` orchestration
 - **TODO** Add `git commit` orchestration
 - **TODO** Add func(s) modification of `CHANGES.md` 
@@ -25,7 +25,7 @@
 - Removed `git clean -fdx` from `s3d-install`
 - Updated `README.md`
 
-## [Next](https://go.s3d.club/s3d-cli/next)
+## [Next](https://github.com/s3d-club/s3d-cli/tree/next)
 - **TODO** Added CI/CD
 - **TODO** Added Go commands
 - **TODO** Added GoDoc

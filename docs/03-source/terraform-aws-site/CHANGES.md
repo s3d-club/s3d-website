@@ -1,10 +1,10 @@
 # Changes
-- This is a [CHANGES.md](https://go.s3d.club/changes/) file
+- This is a [CHANGES.md](https://go.s3d.club/changes.html) file
 
-## [0.0.1](https://go.s3d.club/terraform-aws-site/work/0.0.1)
+## [0.0.1](https://github.com/s3d-club/terraform-aws-site/tree/0.0.1)
 - Added initial implementation
 
-## [Next](https://go.s3d.club/terraform-aws-site/next)
+## [Next](https://github.com/s3d-club/terraform-aws-site/tree/next)
 - **TODO** Added CI/CD
 - **TODO** Improved `README.md`
 - **TODO** Updated `.terraform.lock.hcl`
