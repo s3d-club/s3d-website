@@ -148,15 +148,14 @@ this complex sequence and think about what you are doing. This is powerful
 code!
 
 ```bash title="ON CLOUDSHELL NOT EC2"
-i='aws iam'
 a=AdministratorAccess
 a=arn:aws:iam::aws:policy/$a
 u_=--user-name
 p_=--policy-arn
 u=s3d-u1
-$i create-user        $u_ $u
-$i attach-user-policy $u_ $u $p_ $a
-$i create-access-key  $u_ $u | 
+aws iam create-user        $u_ $u
+aws iam attach-user-policy $u_ $u $p_ $a
+aws iam create-access-key  $u_ $u | 
 jq .AccessKey |
 tee ~/s3d-u1-key.json
 ```

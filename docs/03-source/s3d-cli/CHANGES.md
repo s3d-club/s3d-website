@@ -1,11 +1,11 @@
 # Changes
-- This is a [CHANGES.md](https://go.s3d.club/changes/) file
+- This is a [CHANGES.md](https://go.s3d.club/changes.html) file
 
-## [0.0.1](https://go.s3d.club/s3d-cli/work/0.0.1)
-- Added `LICENSE` 
+## [0.0.1](https://github.com/s3d-club/s3d-cli/tree/work/0.0.1)
+- Added `LICENSE`
 - **TODO** Added a limited but working CLI
 
-## [0.0.2-1](https://go.s3d.club/s3d-cli/work/0.0.2)
+## [0.0.2-1](https://github.com/s3d-club/s3d-cli/tree/work/0.0.2)
 - **TODO** Add `git add` orchestration
 - **TODO** Add `git commit` orchestration
 - **TODO** Add func(s) modification of `CHANGES.md` 
@@ -16,7 +16,7 @@
 - **TODO** Improved coding conventions
 - **TODO** Merge `cmdAws.go` and `cmdAwsEc2.go`
 - **TODO** Write a good `longFlow` string
-- Added `kill` func
+- Added `kill` and `killOn` funcs
 - Added `s3d flow commit` command stub
 - Added `s3d flow` command 
 - Changed `s3d version` to JSON output
@@ -25,14 +25,14 @@
 - Removed `git clean -fdx` from `s3d-install`
 - Updated `README.md`
 
-## [Next](https://go.s3d.club/s3d-cli/next)
+## [Next](https://github.com/s3d-club/s3d-cli/tree/next)
 - **TODO** Added CI/CD
 - **TODO** Added Go commands
 - **TODO** Added GoDoc
 - **TODO** Added Terraform commands
 - **TODO** Added Tests
 - **TODO** Added `1.0.0`
-- **TODO** Added `CHANGELOG.md` 
+- **TODO** Added `CHANGELOG.md`
 - **TODO** Added `CONTRIBUTING.md`
 - **TODO** Added `Code Style` section to `README.md`
 - **TODO** Added `Install` section to `README.md`

@@ -12,7 +12,8 @@ in projects. Change management is a critical skill in **software**. We put a
 lot of effort into our change management process.
 
 In this document, we describe how we use the `CHANGES.md` file. We have a
-related document where we discuss our on our [S3D Workflow](https://go.s3d.club/workflow).
+related document where we discuss our on our [S3D
+Workflow](https://go.s3d.club/docs/views/git).
 
 ## Overview 
 All of our projects maintain a `CHANGES.md` file in their project root. This
@@ -88,7 +89,7 @@ performed.
 ### Next Block
 The final block of a `CHANGES.md` file lists the `next` planned changes. The
 final block is always a reference to the `next` branch and as such using a [GIT
-workflow](/git-workflow) with a `next` branch is a requirement.
+workflow](/docs/views/git) with a `next` branch is a requirement.
 
 ```markdown
 ## [Next](https://github-ish-site/project/project/tree/next)
