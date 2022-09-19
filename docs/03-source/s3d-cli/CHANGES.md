@@ -2,7 +2,7 @@
 - This is a [CHANGES.md](https://go.s3d.club/changes/) file
 
 ## [0.0.1](https://go.s3d.club/s3d-cli/work/0.0.1)
-- Added `LICENSE` 
+- Added `LICENSE`
 - **TODO** Added a limited but working CLI
 
 ## [0.0.2-1](https://go.s3d.club/s3d-cli/work/0.0.2)
@@ -16,7 +16,7 @@
 - **TODO** Improved coding conventions
 - **TODO** Merge `cmdAws.go` and `cmdAwsEc2.go`
 - **TODO** Write a good `longFlow` string
-- Added `kill` func
+- Added `kill` and `killOn` funcs
 - Added `s3d flow commit` command stub
 - Added `s3d flow` command 
 - Changed `s3d version` to JSON output
@@ -32,7 +32,7 @@
 - **TODO** Added Terraform commands
 - **TODO** Added Tests
 - **TODO** Added `1.0.0`
-- **TODO** Added `CHANGELOG.md` 
+- **TODO** Added `CHANGELOG.md`
 - **TODO** Added `CONTRIBUTING.md`
 - **TODO** Added `Code Style` section to `README.md`
 - **TODO** Added `Install` section to `README.md`
