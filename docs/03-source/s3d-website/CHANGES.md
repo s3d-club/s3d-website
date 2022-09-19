@@ -13,12 +13,13 @@
 - Updated projects
 
 ## [0.0.3-1](https://go.s3d.club/s3d-website/work/0.0.3)
-- **TODO** Added new block post
+- **TODO** Added new blog post
+- Simplify `aws iam` bash in tutorial
 - Fixed `terraform-aws-acm/s3d-pull` _(no CHANGELOG.md)_
 - Updated `03-source/*/*.md`
 
 ## [Next](https://go.s3d.club/s3d-website/next)
-- **TODO** Added new block post
+- **TODO** Added new blog post
 - **TODO** Fixed `npm install` warnings
 - **TODO** Fixed typos and other minor site errors
 - **TODO** Plan site changes in **THIS** document
