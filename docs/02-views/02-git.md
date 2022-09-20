@@ -3,23 +3,42 @@ sidebar_position: 1
 ---
 
 # S3D Workflow
-The S3D workflow is the idealized process we follow to bring work to releases.
-Our tools are designed to support this workflow.
+The S3D workflow is the process we follow to bring work into releases.
 
-Our workflow includes `Semantic Versioning`, `GIT`, and the `CHANGELOG.md`
-file.
+Our tools are designed to support this workflow. In particular the [S3D
+CLI](/docs/source/s3d-cli/) has commands that automate away much of the tedious
+work required to produce GIT commits with quality informative comments and
+helps teams describe development progress.
+
+Our provess is quite a bit different from [GIT
+Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow),
+[GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow),
+or [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html).
+
+The core idea in our project is that at **ANY** point in time **ANY** branch
+can describe how the concept of software version applies to that branch. We
+also simplify branch names, workflow steps, and provide automation for
+committing and tagging.
+
+Since we are **opinionated** and these are our notes we have exact rules for
+how we name things. For example, we only use `origin` as a name for an `https`
+address of the central repo. Sure, `git` allows you to use `ssh` protocol for
+the origin remote but that only works if you have priviliges to that remote.
+Since in the course of our work we have some repos from other teams where we
+don't have push access we simply decide that in our world view `origin` is a
+name we reserve for general purpose non push access. If we `push` something it
+will be to the remotes named `ssh`, `fork`, or `up`.
 
 ## We use the following GIT remotes
-
 | Name     | Usage                                                |
 | -------- | ---------------------------------------------------- |
 | `origin` | **https** address for the central repository         |
 | `ssh`    | **ssh** address for the central repository           |
 | `fork`   | **ssh** address of our personal fork                 |
-| `up`     | **https** address of the upstream project _(if any)_ |
+| `source` | **https** address of the upstream project _(if any)_ |
+| `up`     | **ssh** address of the upstream project _(if any)_   |
 
-## We use the following branches.
-
+## We use the following branches
 | Name         | Usage                                             |
 | ------------ | ------------------------------------------------- |
 | `main`       | The tagged history of the project                 |
@@ -32,13 +51,21 @@ We like the top level of projects to be simple four letter words.
 Each of our projects has the (`main`, `next`, and `seen`) branches. We use
 `work/#.#.#` branches to prepare a given release.
 
+## We use the following tags
+| Name       | Usage                                                                                             |
+| ---------- | ------------------------------------------------------------------------------------------------- |
+| #.#.#      | Version tags _(these tags are remove and/or re-pushed rarely)_                                    |
+| #.#.#-#    | Pre-release tags _(repushed and/or removed often)_                                                |
+| work/#.#.# | The **final** state of a work branch; the branch is removed just prior to this tag being created. |
+
 ### Work Branches
 We use the prefix `work/` for
 [topic](https://git-scm.com/docs/gitworkflows#_topic_branches) branches. A work
 branch is created from an existing release tag. Creation of the branch from
 `main` is the same as creating the branch from the latest release tag. A work
 branch that is a fix for the an earlier release is created from the associated
-tag.
+tag. When work is completed, a tag of the same name is created then the branch
+is removed and the tag is pushed.
 
 ```bash title="New work example"
 git checkout -b work/12.3.0 main
@@ -110,7 +137,34 @@ The history of the `s3d-cli` tool follows this approach. Te `s3d-cli` tool is a
 project where `s3d flow` commands are developed allowing user of the CLI to
 automatically make commits with the associated changes to version numbers.
 
-```text title="The history of this site"
+### Working on `Main`
+The recommendation for non fastforward mergin of `work/` -> `next` and `main`
+-> `main` is not an absolute rule. There are times when we will work directly
+on `next` or on `main`. The rule we follow is that outside of extremly rare
+events we never perform a force push on `main` or `next.
+
+### Rewriting History
+In our process we are open to the fact that we will periodically rewrite GIT
+history. The **working history** of a GIT project is a great audit trail and
+integraton system but can at times become cluttersuch that the history is it's
+self a bit of `tech debt`.
+
+We believe history rewriting and repushing tags is vaild and occasionally
+**good** provided the following is maintained.
+- The maintainer understands [patch
+  theory](https://zims-en.kiwix.campusafrica.gos.orange.com/wikibooks_en_all_maxi/A/Understanding_Darcs/Patch_theory)
+- Verbatim content match for the new tags
+- Appropiate tracking of the authorship of content
+- Maintance of the original history in the `seen` branch
+- A message in the annotation of the new tag describing why it was rewritten
+  and providing a reference to the prior revision.
+
+History re-writing is **VERY** rare but it does happen. If a stakeholder needs to have
+assurance that a tag's exact reference will never change they need to fork the
+project and hold their tag in thier fork.
+
+### Example
+```text title="The early history of the s3d-cli project"
 M─┐ [next] Merge branch 'work/0.0.2' into next
 │ o [work/0.0.2] {ssh/work/0.0.2} 0.0.1-1 Changes; completed 7 of 16 items
 M─┤ [main] {ssh/next} {ssh/main} <0.0.1> <work/0.0.1> 0.0.1
@@ -126,7 +180,7 @@ M─┤ [main] {ssh/next} {ssh/main} <0.0.1> <work/0.0.1> 0.0.1
 │ │ o `CHANGES.md`
 │ │ o `README.md`
 │ M─┤ Merge branch 'work/0.0.1' into next
-│ │ o [fix] Planning
+│ │ o Planning
 │ o─┘ <0.0.1-1> 0.0.1-1 Prototype #1
 I─┘ <0.0.0> 0.0.0
 ```

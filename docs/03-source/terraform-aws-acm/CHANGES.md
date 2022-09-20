@@ -6,8 +6,8 @@
   [github.com/terraform-aws-modules](https://github.com/terraform-aws-modules/terraform-aws-acm.git)
 
 ## [400.1.1](https://github.com/s3d-club/terraform-aws-acm/tree/work/400.1.1)
-- **TODO** Added LICENSE
-- **TODO** Copied `/CHANGELOG.md` from `/upstream`
+- Added LICENSE
+- Copied `/CHANGELOG.md` from `/upstream`
 
 ## [Next](https://github.com/s3d-club/terraform-aws-acm/tree/next)
 - **TODO** Added CI/CD

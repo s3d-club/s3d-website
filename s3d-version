@@ -2,4 +2,5 @@
 set -e
 
 cd docs/03-source/s3d-website/ || exit 99
-_s3d-semver-update ../../../docusaurus.config.js
+v=$(_s3d-semver-get | jq -r .latest)
+sed -i "s/^const version .*/const version = '$v';/" ../../../docusaurus.config.js

@@ -3,4 +3,5 @@
 cd "$(dirname "$0")"
 
 npm ci
-yarn build && aws s3 sync build s3://102587820664-www-s3d-club
+npm install -g yarn
+npm run build && aws s3 sync build s3://102587820664-www-s3d-club
