@@ -1,7 +1,0 @@
-#!/bin/bash
-
-cd "$(dirname "$0")"
-
-npm ci
-npm install -g yarn
-npm run build && aws s3 sync build s3://102587820664-www-s3d-club

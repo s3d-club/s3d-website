@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
 
-cd docs/03-source/s3d-website/ || exit 99
-v=$(_s3d-semver-get | jq -r .latest)
-sed -i "s/^const version .*/const version = '$v';/" ../../../docusaurus.config.js
+v=$(s3d-flow-json | jq -r .latest)
+sed -i "s/^const version .*/const version = '$v';/" ./docusaurus.config.js

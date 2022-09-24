@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Switch to script directory
+cd "$(dirname "$0")"
+
+# Exit on errors
+set -e
+
+# Make sure the version is correct
+./s3d-version
+
+# Build (with npm install if needed)
+npm run build
+
+# Apply to S3
+aws_account=$(aws sts get-caller-identity | jq -r '.Account')
+aws s3 sync --delete build "s3://${aws_account}-www-s3d-club"
+aws s3 sync --delete go "s3://${aws_account}-go-s3d-club"

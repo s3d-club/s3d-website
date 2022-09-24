@@ -1,14 +1,17 @@
 # Changes
-- This is a [CHANGES.md](https://go.s3d.club/changes.html) file
+Recently completed and planned work is tracked here.
 
-## [400.1.0](https://github.com/s3d-club/terraform-aws-acm/tree/400.1.0)
-- Forked from
-  [github.com/terraform-aws-modules](https://github.com/terraform-aws-modules/terraform-aws-acm.git)
+## [400.1.0](.)
+- Forked from `github.com/terraform-aws-module`
 
-## [400.1.1](https://github.com/s3d-club/terraform-aws-acm/tree/work/400.1.1)
-- Added LICENSE
+## [400.1.1](.) [400.1.2](.)
+- Added `LICENSE`
 - Copied `/CHANGELOG.md` from `/upstream`
+- Added resource tagging
 
-## [Next](https://github.com/s3d-club/terraform-aws-acm/tree/next)
+## [400.1.3-akdj](.)
+- **TODO** Improved `README.md`
+
+## [Next](.)
 - **TODO** Added CI/CD
 - **TODO** Improved `README.md`
