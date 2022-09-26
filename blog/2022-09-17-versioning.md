@@ -7,7 +7,6 @@ authors:
   image_url: https://media-exp1.licdn.com/dms/image/C4D03AQHyNRa5uRX66w/profile-displayphoto-shrink_800_800/0/1610824372979?e=1668643200&v=beta&t=SAlTxYvkFXlzAtS6_vpEo044gkUMJgCNarUoolBqvEc
 tags: [GIT, Semantic-Versioning]
 ---
-
 This is my second blog post for the [S3D](/) club. The website and several
 related open source tools are under development.  The tutorial is starting to
 take shape. I have built a number of Terraform modules to support the tutorial

@@ -3,11 +3,19 @@
 <H2 id="msg"></H2><script>
 
 // SEE: https://go.s3d.club/go
+var specEd = "https://www.amazon.com/Special-Ed-Dystopian-Dyslexic-Success-ebook/dp/B09Z32LD6N/ref=sr_1_1?crid=2XBEQCKQYKROY&keywords=Mark+Farnsworth+Dyslexia+Book&qid=1664053770&qu=eyJxc2MiOiIxLjIyIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=mark+farnsworth+dyslexia+book%2Caps%2C147&sr=8-1"
+var hcAws = "https://registry.terraform.io/providers/hashicorp/aws/latest"
+var hcAwsRes = hcAws + "/docs/resources"
+
+// The following map handles our url redirections
 var map = {
   changes: "https://www.s3d.club/docs/notes/changes",
   example_multi__level: "https://www.s3d.club",
   go: "https://www.s3d.club/docs/work/G001#",
   todo: "https://www.s3d.club/docs/work/todo",
+	farnsw__book: specEd,
+	eks: "https://www.s3d.club/docs/source/aws-eks/overview",
+	hc__aws: hcAwsRes,
 }
 
 var doc = document.getElementById("msg")
@@ -25,12 +33,12 @@ key = key.replace(/-$/, "")
 
 var href = map[key]
 href = href ? href : map.todo
-href += newPath
+href += path == newPath ? "" : newPath
 href += location.hash
 
 var delay = 1
 var html = "<p>"
-html += "Redirecting \"" + path + "\""
+html += "Redirecting"
 html += " to <a href=\"" + href + "\">THIS</a> location"
 html += " in " + delay + " seconds"
 html += "</p>"

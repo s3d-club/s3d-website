@@ -1,0 +1,19 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+set -e
+
+rm *.md
+cp ../../../../${PWD##*/}/*.md .
+
+rm CODE-OF-CONDUCT.md
+rm CONTRIBUTING.md
+rm LICENSE.md
+
+mv README.md tmp
+echo '---
+sidebar_position: 1
+---
+# EC2 Module
+' > overview.md
+cat tmp | sed -n -e '/Overview/,$p' >> overview.md
+rm tmp

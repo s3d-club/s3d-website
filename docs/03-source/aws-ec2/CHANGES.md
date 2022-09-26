@@ -18,7 +18,7 @@ Recently completed and planned work is tracked here.
 - Upgraded `s3d-club/data-changes`
 - Updated `.terraform.lock.hcl`
 
-## [0.0.8-todo](.)
+## [0.0.8-d3bf](.)
 - **TODO** Improved `README.md`
 
 ## [Next](.)

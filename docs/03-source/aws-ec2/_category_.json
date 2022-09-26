@@ -1,6 +1,6 @@
 {
-  "label": "TF AWS EC2",
-  "position": 1,
+  "label": "AWS EC2",
+  "position": 2,
   "link": {
     "type": "generated-index"
   }

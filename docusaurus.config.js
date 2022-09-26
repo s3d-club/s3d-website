@@ -1,4 +1,3 @@
-const version = '0.0.5';
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
@@ -103,7 +102,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v${version}`,
+        copyright: `S3D Club`,
       },
       prism: {
         theme: lightCodeTheme,

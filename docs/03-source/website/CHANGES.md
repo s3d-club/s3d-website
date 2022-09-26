@@ -12,22 +12,18 @@ Recently completed and planned work is tracked here.
 - Modified `02-views` to `02-notes` to change routes
 - Modified to improve `CHANGES.md` and GIT Workflow
 
-## [0.0.6](.)
+## [0.0.6-1004](.)
+- **TODO** Fixed `[WARNING] ... couldn't be resolved`
 - Added EKS project
 - Added NPM project versioning
 - Added blog post for Reverse SSH Tunneling
 - Added project markdown docs
 - Modified with website edits
 
-## [plan-7](.)
-- **TODO** Added [cloudfront invalidation][invl] for `s3d-apply`
+## [plan-6](.)
 - **TODO** Added `s3d-website/s3d-pull`
 - **TODO** Added an index page similar to how a book provides an index
-- **TODO** Added missing go.s3d.club link mapping
-- **TODO** Added missing modules
 - **TODO** FIxed `s3d-apply` added Cloudfront invalidation
-- **TODO** Fixed `[WARNING] ... couldn't be resolved`
-- **TODO** Fixed all `/docs/**/s3d-pull` scripts
 - **TODO** Fixed typos and other minor site errors
 
 ## [plan](.)
@@ -36,5 +32,3 @@ Recently completed and planned work is tracked here.
 - **TODO** Added new blog post
 - **TODO** Fixed `npm install` warnings
 - **TODO** Fixed typos and other minor site errors
-
-[invl]: https://stackoverflow.com/questions/69794727/how-can-i-invalidate-aws-cloudfront-distribution-cache-using-terraform
