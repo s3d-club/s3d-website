@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        We have a <a href="/docs/category/open-source-tools">tutorial</a> that
+        We have a <a href="/docs/category/tutorial">tutorial</a> that
         helps people create their own AWS based development site with a
         website, API Gateway, Webservies, and development tools.
       </>
@@ -20,21 +20,20 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        The S3D club builds <a href="/docs/category/open-source-tools">open
+        The S3D club builds <a href="/docs/category/projects">open
         source tools</a> that can help you and your teams improve your
         development experience.
       </>
     ),
   },
   {
-    title: 'Opinionatied Views',
+    title: 'Shared Notes',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        We are a club that LOVEs to discuss software best practices. We
-        have strong <a href="/docs/category/opinionated-views">opinionatied
-        views</a> about the right way to work with tools like GIT, Go,
-        Bash, AWS, PostgreSQL, etc.
+        We are a club that LOVEs to discuss software best practices. We have a
+        <a href="https://www.s3d.club/docs/category/notes"> growing collection
+        of notes</a> from our work with GIT, Go, Bash, AWS, PostgreSQL, etc.
       </>
     ),
   },

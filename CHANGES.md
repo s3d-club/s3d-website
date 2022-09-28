@@ -19,6 +19,9 @@ Recently completed and planned work is tracked here.
 - Added project markdown docs
 - Modified with website edits
 
+## [0.0.8](.)
+- Fixed home page links
+
 ## [plan-7](.)
 - **TODO** Added [cloudfront invalidation][invl] for `s3d-apply`
 - **TODO** Added `s3d-website/s3d-pull`

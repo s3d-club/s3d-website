@@ -16,14 +16,14 @@ or [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html).
 
 Some core differences:
 - We always tag **before** we merge
-- We have shorter branch names `work` vs `feature`
-- Our focus a lot more on tagging vs. branches
+- We have short branch names with "`work/`" rather than `featurei/`
+- We focus a lot on tags and see branches as less important
 - Our `main` branch is a clean history of only release tags
 - Our `work/` branches replace (`feature/`, `fix/`, `hotfix/`, and other names)
 
-At **ANY** point we describe the context as a version numbeer. We also simplify
-branch names, workflow steps, and provide automation for committing and
-tagging.
+At **ANY** point in a branch we describe the context as a version numbeer. We
+also simplify branch names, workflow steps, and provide automation for
+committing and tagging.
 
 Since we are **opinionated**, we have exact rules for how we name things. For
 example, we only use `origin` as a name for an `https` address of the central

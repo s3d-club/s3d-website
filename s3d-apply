@@ -13,6 +13,6 @@ set -e
 npm run build
 
 # Apply to S3
-aws_account=$(aws sts get-caller-identity | jq -r '.Account')
-aws s3 sync --delete build "s3://${aws_account}-www-s3d-club"
-aws s3 sync --delete go "s3://${aws_account}-go-s3d-club"
+s3='s3://220927-python'
+aws s3 sync --delete build $s3-www-s3d-club
+aws s3 sync --delete go $s3-go-s3d-club
