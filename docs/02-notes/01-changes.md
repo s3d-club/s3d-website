@@ -55,6 +55,9 @@ Blocks for released versions use the format shown in the following example.
 # Changes
 Recently completed and planned work is tracked here.
 
+Plan items
+- **TODO** Planned `wighat` feature
+
 ## [0.0.0](.) [1.4.4][early-days]
 - A few chaotic early releases
  
@@ -82,15 +85,12 @@ Recently completed and planned work is tracked here.
 - Modified `Fhoo` handle `XingTat` protocol
 
 ## [6.4.6-1034(plan-6)
-- **TODO** Add `dboMan` for new `Oak` serivce
-- **TODO** Mod `bar` fixed deadlock
-- **TODO** Mod `haxfoon` to be a public `Haxfoon`
+- **TODO** Added `dboMan` for new `Oak` serivce
+- **TODO** Fixed `bar` deadlock
+- **TODO** Changed `haxfoon` to be a public `Haxfoon`
 - Add `fuxing` as a private `Mutator` for CRUD
 - Add `xingbot` as a private `Wingbat`
 - Fix `Foo` race condition
-
-## [plan](.)
-- **TODO** Mod remove `Yinghat` feature
 
 [early-days]: https://go.s3d.club/example/CHANGES.md#early-days
 [hk39]: https://go.s3d.club/example/CHANGES.md#hk39
@@ -99,22 +99,23 @@ Recently completed and planned work is tracked here.
 [yinghat]: https://go.s3d.club/example/CHANGES.md#yinghat
 ```
 
-In release blocks, lines must start as follows:
+In release blocks, lines should start with `*ed` words similar to:
 - `- Added`
+- `- Changed`
 - `- Fixed`
 - `- Modified`
+- `- Refactored`
+- `- Removed`
+- `- Replaced`
+- `- Upgraded`
 
 All lines with the exception of the [short link table][short] are a maximum of
-80 charactors. The [short link table] is optional but when included it must be
-at the end of the document.
+`80` charactors. The [short link table][short] is optional but when included it
+must be at the end of the document.
 
-Block headers can have multiple releases but they must define a range. Headers
-must be [markdown](https://www.markdownguide.org/) links as show. We encurage
-the use of [short link][short] linking.
-
-Pre-release version blocks differ in that items with a `**TODO**` prefix are
-allowed. In pre-release blocks the shorter `- Add`, `- Fix`, `- Mod` are also
-allowed.
+Block headers can have multiple releases but they should define a range.
+Headers must be [markdown](https://www.markdownguide.org/) links as show. We
+encurage the use of [short link][short] linking.
 
 Once the release is final, the section becomes the release description. Over
 time, the release blocks can be editited and combined as needed. The goal is to
@@ -125,13 +126,10 @@ Pre-releases numbers are in the range of 1000 to 9999.
 
 The language used in the bullet points are intentionally brief and intended
 only for consumption by the development teams. We encurage the use of markdown
-highlighting for words with special meaning.
+highlighting for words with special meaning. Everything should be written in
+the past tense including the `**TODO**` items.
 
-### Plan Blocks
-After release blocks we often have one or more `[plan](.)` blocks with planned
-changes.
-
-Block headers are written as links; these **may** refernce other sites or can
+Block headers are written as links; these **may** reference other sites or can
 simply be self links as `[#.#.#](.)`.
 
 ## Relationship with `CHANGELOG.md`

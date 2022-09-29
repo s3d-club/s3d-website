@@ -16,7 +16,8 @@ or [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html).
 
 Some core differences:
 - We always tag **before** we merge
-- We have short branch names with "`work/`" rather than `featurei/`
+- We have short branch names with "`work/`" rather than `feature/`, `hotfix/`,
+  `release/`, etc.
 - We focus a lot on tags and see branches as less important
 - Our `main` branch is a clean history of only release tags
 - Our `work/` branches replace (`feature/`, `fix/`, `hotfix/`, and other names)
