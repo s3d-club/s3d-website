@@ -13,6 +13,8 @@ set -e
 npm run build
 
 # Apply to S3
-s3='s3://220927-python'
+s3='s3://www-s3d-club-220927-kitten'
 aws s3 sync --delete build $s3-www-s3d-club
+
+s3='s3://go-s3d-club-220926-falcon'
 aws s3 sync --delete go $s3-go-s3d-club

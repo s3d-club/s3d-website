@@ -1,19 +1,11 @@
 # Changes
 Recently completed and planned work is tracked here.
 
-## [0.0.0](.)
-- Added project files
+## [0.0.0](.) [0.0.8](.)
+- Created
 
-## [0.0.1](.)
-- Added the first implementation
+## [0.0.9](.)
+- Updated to use `name` module for `python` issue
 
-## [0.0.2](.) [0.0.4](.)
-- Added `role` as an output
-- Added a link to Terraform registry in our `README`
-- Removed unsupported markdown links from Terraform descriptions
-
-## [0.0.5-1000](.)
-- `README` edits
-
-## [plan](.)
+## [plan-0.0.10-1001](.)
 - **TODO** Add code

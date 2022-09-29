@@ -16,12 +16,12 @@ other actions that would expose the private GIT server. Since it is something
 that has confused me in the past I figure it is worth creating a blog post in
 hopes of helping others and as notes for myself.
 
-I needed the tunnel because, in this particular case our group has an AWS
+I needed the tunnel because, in this particular case, our group has an AWS
 account that we think of as our _"sandbox"_. As a sandbox account we are often
 testing ideas in this semi-secure account. While we are very careful about
 security in our _"sandbox"_ we don't view the VPCs in sandbox with the same
 levl of trust as our other networks. For some work I need to be on the VPN and
-when I am there I need to have access to Git.
+when I am there, I need to have access to Git.
 
 SSH Tunneling and; in this case, reverse tunneling is a great tool for this
 type of situation. With the tunnel, I can establish a SSH session and do my
@@ -56,15 +56,28 @@ want to associate `127.0.0.1` with the name.
 The following is our updated `/etc/hosts` file with our change.
 
 ```text
-127.0.0.1   ixd.neo3foozn4tx.com localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost6 localhost6.localdomain6
+127.0.0.1 ixd.neo3foozn4tx.com
+127.0.0.1 localhost localhost.localdomain
+::1       localhost6 localhost6.localdomain6
 ```
 
-After making the change to `/etc/hosts` we logout and then login again but this
+After making the change to `/etc/hosts`, we logout and then login again but this
 time when we establish our SSH session we set the `-R` parameter to configure
 our reverse tunnel.
 ```bash
-ssh -i my-id.pem -R 22222:ixd.neo3foozn4tx.com:22222 ec2-user@ec2-1-2-3-4.compute-1.amazonaws.com
+ssh -i my-id.pem \
+-R 10022:ixd.neo3foozn4tx.com:22 \
+-R 10443:ixd.neo3foozn4tx.com:443 \
+ec2-user@ec2-1-2-3-4.compute-1.amazonaws.com
+```
+
+Once our session on the EC2 starts, we issue the following commands to run
+background processes that will forward traffic from the llow numbered ports to
+the higher number ones. _(as always with bash we need to be careful about
+whitespace; in the command make certain not to add a space after the commas!)_
+```bash
+sudo socat TCP-LISTEN:22,fork  TCP:localhost:10022
+sudo socat TCP-LISTEN:443,fork TCP:localhost:10443
 ```
 
 With the tunnel and the change to `/etc/hosts` can now use git operations while
