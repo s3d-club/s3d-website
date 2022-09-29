@@ -36,9 +36,9 @@ and remote dirctions is actually fairly simple.
 Imagine that on my local network my team uses the following URL to perform our
 Git operations.
 
-- `[git@ixd.neo3foozn4tx.com:22222]:team-foo/product-qx.git`
+- `[git@ixd.neo3foozn4tx.com]:team-foo/product-qx.git`
 
-Without SSH tunneling we establish our SSH session as follows.
+Without SSH tunneling, we establish our SSH session as follows.
 ```bash
 ssh -i my-id.pem ec2-user@ec2-1-2-3-4.compute-1.amazonaws.com
 ```
@@ -71,13 +71,12 @@ ssh -i my-id.pem \
 ec2-user@ec2-1-2-3-4.compute-1.amazonaws.com
 ```
 
-Once our session on the EC2 starts, we issue the following commands to run
-background processes that will forward traffic from the llow numbered ports to
-the higher number ones. _(as always with bash we need to be careful about
-whitespace; in the command make certain not to add a space after the commas!)_
+Once our session on the EC2 starts, we issue the following command to run a
+background process forward traffic for the 443 port.  _(as always with bash we
+need to be careful about whitespace; in the command make certain not to add a
+space after the commas!)_
 ```bash
-sudo socat TCP-LISTEN:22,fork  TCP:localhost:10022
-sudo socat TCP-LISTEN:443,fork TCP:localhost:10443
+sudo socat TCP-LISTEN:443,fork TCP:localhost:10443 &
 ```
 
 With the tunnel and the change to `/etc/hosts` can now use git operations while
@@ -86,5 +85,9 @@ we are in the SSH session. Our tunnel allows for the communication to
 `/etc/hosts` change allows us to refer to the location using the same logical
 name even we are actually performing traffic on a localhost port so our tunnel
 can transport the traffic.
+
+We can now perform Git operations over HTTP exactly the same as when we are on
+our local. When using Git with SSH protocol we use the 10022 port that our
+tunnel has in place to reach the 22 port of the on-prem system.
 
 It's really not that difficult!
