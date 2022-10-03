@@ -1,9 +1,8 @@
 # Changes
+Recently completed and planned work is tracked here.
 
-## [0.0.1-1](https://go.s3d.club/s3d-website/work/0.0.1)
-- **TODO** Added a working site
+## [0.0.0](.) to [0.0.12](.)
+- Created early releases
 
-## [Next](https://go.s3d.club/s3d-website/next)
-- **TODO** Fixed `npm install` warnings
-- **TODO** Fixed typos and other minor site errors
-- **TODO** Updated Node Packages
+## [0.1.0](.)
+- Updated documents and website

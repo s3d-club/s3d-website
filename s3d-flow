@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+s3d-apply

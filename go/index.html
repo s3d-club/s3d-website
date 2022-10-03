@@ -1,0 +1,52 @@
+<html><head></head><body>
+<H1>THIS PAGE REQUIRES JAVASCRIPT</H1>
+<H2 id="msg"></H2><script>
+
+// SEE: https://go.s3d.club/go
+var specEd = "https://www.amazon.com/Special-Ed-Dystopian-Dyslexic-Success-ebook/dp/B09Z32LD6N/ref=sr_1_1?crid=2XBEQCKQYKROY&keywords=Mark+Farnsworth+Dyslexia+Book&qid=1664053770&qu=eyJxc2MiOiIxLjIyIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=mark+farnsworth+dyslexia+book%2Caps%2C147&sr=8-1"
+var hcAws = "https://registry.terraform.io/providers/hashicorp/aws/latest"
+var hcAwsRes = hcAws + "/docs/resources"
+
+// The following map handles our url redirections
+var map = {
+  changes: "https://www.s3d.club/docs/notes/changes#",
+  example_multi__level: "https://www.s3d.club/#",
+  go: "https://www.s3d.club/docs/work/G001#",
+  todo: "https://www.s3d.club/docs/work/todo#",
+	farnsw__book: specEd,
+	eks: "https://www.s3d.club/docs/source/aws-eks/overview#",
+	hc__aws: hcAwsRes,
+}
+
+var doc = document.getElementById("msg")
+
+var path = location.pathname 
+path = path.substring(1)
+
+var newPath = path.replace(/.*-\//g, "")
+newPath = newPath ? "/" + newPath : ""
+
+var key = path.replace(/-\/.*/g, "")
+key = key.replace(/[/]/g, "__")
+key = key.replace(/-/g, "_")
+key = key.replace(/-$/, "")
+
+var href = map[key]
+href = href ? href : map.go
+if (("/" + path) != newPath) {
+  href += newPath
+}
+href += location.hash
+
+var delay = 3
+var html = "<p>"
+html += "Redirecting"
+html += " to <a href=\"" + href + "\">THIS</a> location"
+html += " in " + delay + " seconds"
+html += "</p>"
+msg.innerHTML = html
+
+function go() { window.location.replace(href) }
+setTimeout(go, 1000 * delay)
+
+</script></body>

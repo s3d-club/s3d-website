@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+
+v=$(s3d-flow-json | jq -r .latest)
+sed -i "s/^const version .*/const version = '$v';/" ./src/pages/index.js
+
+npm version $v \
+  --allow-same-version true \
+  --git-tag-version false \
+  --workspaces-update false

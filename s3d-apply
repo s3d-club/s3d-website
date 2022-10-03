@@ -1,0 +1,28 @@
+#!/bin/bash
+set -e
+
+# Switch to script directory
+cd "$(dirname "$0")"
+
+# skip if the env is set
+if [ -n "$S3D_WEBSITE_SKIP" ]; then
+  echo 'FLOW: skipping website apply'
+  exit 0
+fi
+
+# Make sure the version is correct
+./s3d-version
+
+# Build (with npm install if needed)
+npm run build
+
+# Get output from the account
+output=$(cd ../06-account && terraform output -json)
+
+# Apply to S3
+s3=$(echo "$output" | jq -r '.site | .value | .urls.s3_bucket')
+aws s3 sync --delete build "$s3"
+
+# Apply to S3
+s3=$(echo "$output" | jq -r '.go_site | .value[0] | .urls.s3_bucket')
+aws s3 sync --delete go "$s3"
