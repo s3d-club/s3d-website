@@ -1,6 +1,0 @@
-#!/bin/bash
-set -e
-cd "$(dirname "$0")"
-
-# Execute all pulls
-find docs -name s3d-pull | sh

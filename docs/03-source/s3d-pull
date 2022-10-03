@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Identify the source directory
+src="../../../../${PWD##*/}"
+
+# Remove existing docs
+rm *.md
+
+# Copy docs
+cp "$src/README.md" .
+cp "$src/CHANGES.md" .
+
+# Rewrite README.md to create overview.md
+mv README.md tmp
+echo '---
+sidebar_position: 1
+---
+' > overview.md
+
+# Get the first line from the README.md
+head -n 1 tmp >> overview.md
+
+# Get lines following Overview from README.md
+cat tmp | sed -n -e '/## Overview/,$p' >> overview.md
+rm tmp

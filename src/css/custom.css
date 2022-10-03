@@ -20,6 +20,7 @@
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-breadcrumb-color-active: #b2f3e5;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -29,4 +30,5 @@
   --ifm-color-primary: #4d796f;
   --ifm-link-color: #a8e5d7;
   --ifm-menu-color-active: #bdebe1;
+  --ifm-navbar-link-hover-color: #b2f3e5;
 }

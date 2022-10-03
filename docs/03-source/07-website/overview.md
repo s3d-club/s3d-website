@@ -1,11 +1,8 @@
+---
+sidebar_position: 1
+---
+
 # S3D Website Project
-This project defines the S3D Website
-
-## Additional Documents
-Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
-and [CHANGES][chge] documents before working in this project and anytime they
-are update.
-
 ## Overview
 The S3D website is dedicated to sharing knowledge and helping software
 developers succeed.

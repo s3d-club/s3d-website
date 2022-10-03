@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   tagline: 'Software Developers with Dyslexia and/or Dyscalculia',
   title: 'S3D Club',
