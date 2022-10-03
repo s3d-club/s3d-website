@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# S3D Init
+# AWS ECR Terraform Module
 ## Overview
 This is a simple ECR configuration.
 

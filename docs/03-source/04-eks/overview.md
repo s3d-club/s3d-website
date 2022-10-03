@@ -2,20 +2,16 @@
 sidebar_position: 1
 ---
 
-# S3D EKS Module
+# EKS Terraform Module
 ## Overview
 This module defines our EKS configuration.
 
 Our module has the following attributes.
-- Ressource naming and tagging managed by [S3D naming][name]
+- Ressource naming and tagging managed by the [name][name] module
 - IAM role and policy for `AmazonEKSClusterPolicy` and
   `AmazonEKSVPCResourceController`
 
-The approach we are using is a response to modules we used in the past that
-were overly complex and bloated with _"features"_ that we see as anit-patterns.
-
-The module is [available on the Terraform Registry][tfrg] and has a club page
-[HERE](https://go.s3d.club/eks).
+This module focused on EKS functionality with a minimum of "extra" resources.
 
 ### Required Inputs
 #### <a name="cidrs"></a> IP4 CIDRs `list(string): cidrs` 

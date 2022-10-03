@@ -1,11 +1,9 @@
 # Changes
 Recently completed and planned work is tracked here.
 
-## [0.0.1](.) [0.0.11](.)
+## [0.0.1](.) [0.1.0](.)
 - Created early versions
 
-## [0.1.0](.)
-- Completed 1st release
-
-## [0.1.1-1009](.)
-- **TODO** Planned item
+## [0.1.1](.)
+- Removed obsolete `s3d-post-flow`
+- Updated `name` module

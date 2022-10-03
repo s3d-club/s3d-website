@@ -13,3 +13,6 @@ Recently completed and planned work is tracked here.
 - Moved `s3d-pull` functionality to `s3d-apply`
 - Removed `s3d-club.yaml` _(we will use authors.yml`)_
 - Updated `README.md`
+
+## [0.1.2](.)
+- Updated `docs/03-source/*`
