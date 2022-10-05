@@ -30,10 +30,10 @@ output=$(cd ../06-account && terraform output -json)
 
 echo "APPLY: '$1'"
 if [ -z "$1" ]; then
-  s3=$(echo "$output" | jq -r '.site | .value | .urls.s3_bucket')
+  s3=$(echo "$output" | jq -r '.site | .value[0] | .urls.s3_bucket')
   aws s3 sync --delete build "$s3"
 else
-  s3=$(echo "$output" | jq -r ".${1}_site | .value | .urls.s3_bucket")
+  s3=$(echo "$output" | jq -r ".${1}_site | .value[0] | .urls.s3_bucket")
   aws s3 sync --delete build "$s3"
 fi
 

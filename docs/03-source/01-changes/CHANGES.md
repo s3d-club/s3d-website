@@ -18,3 +18,9 @@ Recently completed and planned work is tracked here.
 - Improved `README.md`
 - Improved descriptions on inputs and outputs
 - Improved implementation with a better tagging scheme
+
+## [0.1.3](.)
+- Changed; so on errors, tags are lost but process does not fail
+
+## [0.1.4](.)
+- Simplified result management and now lower case "error" message
