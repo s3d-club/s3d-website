@@ -10,7 +10,7 @@ const config = {
   favicon: 'img/favicon.ico',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  tagline: 'Software Developers with Dyslexia and/or Dyscalculia',
+  tagline: 'A club for Software Developers',
   title: 'S3D Club',
   url: 'https://www.s3d.club',
   organizationName: 's3d-club', // Usually your GitHub org/user name.

@@ -1,13 +1,17 @@
 # Changes
 Recently completed and planned work is tracked here.
 
-## [0.0.0](.) [0.1.2](.)
+Plan:
+- **TODO** Resolve `Use the aws_s3_bucket_server_side_encryption_configuration
+  resource instead` warning
+
+## [0.0.0](.) [0.1.6](.)
 - Created early versions
 
-## [0.1.3](.)
-- Updated `ec2_work` module
-- Updated `ecr` module
-- Updated `eks` module
-- Updated `k8_auth` module
-- Updated `name` module
-- Updated `sg_ingress_open` module
+## [0.1.7](.) to [0.1.9](.)
+- Added egress cidrs
+- Removed `mate desktop` and `firefox`
+- Upgraded `ec2_work` module for improved `.vimrc` and `psql`
+
+## [0.1.10](.)
+- Changed `egress_cidr6s` to default as empty list

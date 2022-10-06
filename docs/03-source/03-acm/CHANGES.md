@@ -10,3 +10,6 @@ Plan:
 
 ## [0.1.3](.)
 - Updated `change` module for better error handling
+
+## [0.1.4](.)
+- Added `subject_alternative_names` variable
