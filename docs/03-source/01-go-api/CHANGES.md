@@ -9,3 +9,6 @@ Plan:
 
 ## [0.0.6](.)
 - Minor doc edits
+
+## [0.0.7](.)
+- Updated `CODE-OF-CONDUCT.md`

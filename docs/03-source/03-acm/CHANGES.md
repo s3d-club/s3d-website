@@ -13,3 +13,9 @@ Plan:
 
 ## [0.1.4](.)
 - Added `subject_alternative_names` variable
+
+## [0.1.5](.)
+- Updated `CODE-OF-CONDUCT.md`
+- Updated `aws` provider
+- Updated `change` module
+- Updated `external` provider

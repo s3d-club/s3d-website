@@ -2,13 +2,12 @@
 sidebar_position: 1
 ---
 
-# S3D TF AWS Site
+# The Site Module
 ## Overview
 This module defines our concept of a **site**.
 
 We use the term **site** to define a network location where services are
-provided. A simple website is an example of a single domain site as is
-something like a mail or ftp server.
+provided using web protocols.
 
 [chge]: ./CHANGES.md
 [code]: ./CODE-OF-CONDUCT.md

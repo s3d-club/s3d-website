@@ -8,3 +8,6 @@ Recently completed and planned work is tracked here.
 - Updated `CONTRIBUTING.md`
 - Updated `LICENSE.md`
 - Updated `README.md`
+
+## [0.0.4](.)
+- Updated `CODE-OF-CONDUCT.md`

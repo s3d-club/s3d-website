@@ -1,12 +1,13 @@
 # Changes
 Recently completed and planned work is tracked here.
 
-## [0.0.0](.) to [0.1.1](.)
+## [0.0.0](.) to [0.1.3](.)
 - Created first versions
 
-## [0.1.2](.)
-- Changed script for `postgresql13`
-- Improved `.vimrc` for better tab handling
+## [0.1.4](.)
+- Fixed duplicated line in `.vimrc`
+- Fixed incorrect `postgresql13`
+- Removed tigervnc
 
-## [0.1.3](.)
-- Removed `firefox`
+## [0.1.5](.)
+- Updated `CODE-OF-CONDUCT.md`

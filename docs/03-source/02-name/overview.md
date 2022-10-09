@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# S3D Name Module
+# Name Module
 ## Overview
 This module produces randomized names that follow a style we find is useful.
 
@@ -14,9 +14,9 @@ random names we recommend using this module.
 Our names are a mix of informative informative and random information. In this
 module we use the `random` provider's `random` providers `pet` resource to
 construct part of our name but in our wrapper we replace `python` with `znake`
-because we have found that resources named as `python` confuse us because the
-random pet `python` will likely be confused with teams thinking it is a
-reference to the popular programming language of the same name.
+because we have found that resources named as `python` confuse us. The random
+pet `python` will likely be confused with teams thinking it is a reference to
+the popular programming language of the same name.
 
 We use the `time` provider's `static` resource to capture the date the resource
 is created and include it as part of the name.

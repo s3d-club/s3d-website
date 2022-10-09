@@ -7,3 +7,6 @@ Recently completed and planned work is tracked here.
 
 ## [0.0.3](.)
 - Updated `name` module
+
+## [0.0.4](.)
+- Updated `CODE-OF-CONDUCT.md`
