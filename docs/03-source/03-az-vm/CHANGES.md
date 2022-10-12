@@ -1,12 +1,12 @@
 # Changes
 Recently completed and planned work is tracked here.
 
-## [0.0.0](.) [0.0.2](.)
-- Updated project documents
-- Created an initial implementation
+## [0.0.0](.) [0.0.5](.)
+- Created early versions
 
-## [0.0.3](.)
+## [0.0.6](.)
+- Improved `README.md`
+- Updated `azurerm` provider
 - Updated `name` module
-
-## [0.0.4](.)
-- Updated `CODE-OF-CONDUCT.md`
+- Updated `time` provider
+- Updated hashes for `external` and `random` providers

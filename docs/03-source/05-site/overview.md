@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# The Site Module
+# Site Module
 ## Overview
 This module defines our concept of a **site**.
 

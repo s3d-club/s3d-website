@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# S3D Site Manager Python API
+# S3D Python API
 ## Overview
 The club's Python based API exists in part to provide site management features
 and in part to act as a platform for learning about Go APIs.

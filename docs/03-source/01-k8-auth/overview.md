@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# S3D Kubernetes AWS Auth Map Module
+# K8 AWS Auth Map Module
 ## Overview
 This module works in conjunction with the [S3D EKS][eks0] module but could also
 be used for other cases where Kubernetes AWS Auth maps are managed.

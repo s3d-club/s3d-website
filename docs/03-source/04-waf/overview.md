@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# S3D WAF Module
+# WAF Module
 ## Overview
 The Web Application Firewal (WAF) is an important tool for providing services
 over the internet in a secure way.

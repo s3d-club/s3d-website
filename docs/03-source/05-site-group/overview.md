@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# S3D Terraform for a Site Group
+# S3D Site Group Module
 ## Overview
 Within an AWS account, a group of sites will share resources.
 

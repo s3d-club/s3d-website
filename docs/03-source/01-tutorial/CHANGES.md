@@ -1,13 +1,8 @@
 # Changes
 Recently completed and planned work is tracked here.
 
-## [0.0.1](.) to [0.0.2](.)
+## [0.0.1](.) to [0.0.5](.)
 - Added early versions
 
-## [0.0.3](.)
-- Updated `CONTRIBUTING.md`
-- Updated `LICENSE.md`
-- Updated `README.md`
-
-## [0.0.4](.)
-- Updated `CODE-OF-CONDUCT.md`
+## [0.0.6](.)
+- Fixed typo on README

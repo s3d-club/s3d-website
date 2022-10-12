@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# S3D Club CLI
+# S3D CLI
 ## Overview
 The `s3d` CLI tool is inspired by the many other great CLI commands we use on a
 daily basis. Our CLI is a useful day-to-day tool for working with AWS, GIT, GO,

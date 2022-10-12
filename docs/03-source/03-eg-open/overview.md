@@ -2,12 +2,13 @@
 sidebar_position: 1
 ---
 
-# TF AWS Egress Open
+# AWS Open Egress
 ## Overview
-This module is an opinionated wrapper around a [aws security group][awss].
+This module is an opinionated wrapper around an [aws security group][awss]
+resource.
 
 We enforce the following:
-- Our conventions for name, description,, and tagging
+- Our conventions for name, description, and tagging
 - Reduced arguments and attributes
 
 [chge]: ./CHANGES.md

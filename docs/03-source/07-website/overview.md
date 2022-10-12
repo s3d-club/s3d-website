@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# S3D Website Project
+# Website Project
 ## Overview
 The S3D website is dedicated to sharing knowledge and helping software
 developers succeed.

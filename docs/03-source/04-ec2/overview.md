@@ -2,16 +2,12 @@
 sidebar_position: 1
 ---
 
-# S3D AWS EC2 Module
+# AWS EC2 Module
 ## Overview
 This module deploys EC2 instances.
 
-This **IS NOT** a generic EC2 module.
-
-This module deploys EC2 instances for "templates" the club defines.
-
-Currently, we only support the `work` templates. We we will define other
-templates as they are needed.
+Currently, we support the `work` template. We we will define other templates as
+they are needed.
 
 ## Templates
 | Name   | Description                                  |
