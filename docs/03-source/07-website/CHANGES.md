@@ -9,3 +9,6 @@ Recently completed and planned work is tracked here.
 
 ## [0.1.7](.)
 - Updated modules
+
+## [0.1.8](.)
+- Updated modules
