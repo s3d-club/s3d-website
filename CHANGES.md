@@ -6,3 +6,6 @@ Recently completed and planned work is tracked here.
 
 ## [0.1.6](.)
 - General updates
+
+## [0.1.7](.)
+- Updated modules
