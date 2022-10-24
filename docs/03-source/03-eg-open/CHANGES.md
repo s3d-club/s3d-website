@@ -8,3 +8,6 @@ Recently completed and planned work is tracked here.
 - Improved `README.md`
 - Updated `time` provider
 - Updated `name` module
+
+## [0.1.8](.)
+- Updated `hashicorp/aws` provider

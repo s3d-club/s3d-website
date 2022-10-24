@@ -30,9 +30,7 @@ doing. For me using GIT feels natural because for the past thirty years I have
 used various earlier tools that while not nearly as nice had similar ideas. In
 my professional work as an site reliability engineer and software development I
 have worked on teams that have various approaches to their GIT workflows. Teams
-eventually
-[Git-R-Done](https://www.urbandictionary.com/define.php?term=Git-R-Done) but are
-often struggling with the pain of self inflicted wounds associated with bad
+often struggle with the pain of self inflicted wounds associated with bad
 workflows. Often, changing the workflows is a huge pain because they are tied o
 [CI/CD](https://en.wikipedia.org/wiki/CI/CD) tooling. Teams are also usually
 working very hard on the software they are building and often don't focus on

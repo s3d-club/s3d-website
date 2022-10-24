@@ -12,3 +12,6 @@ Plan:
 - Updated `README.md`
 - Updated `changes` module
 - Updated `time` provider
+
+## [0.1.8](.)
+- Updated `hashicorp/aws` provider

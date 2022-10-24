@@ -1,12 +1,8 @@
 # Changes
 Recently completed and planned work is tracked here.
 
-## [0.0.0](.) [0.0.5](.)
+## [0.0.0](.) [0.0.6](.)
 - Created early versions
 
-## [0.0.6](.)
-- Improved `README.md`
-- Updated `azurerm` provider
-- Updated `name` module
-- Updated `time` provider
-- Updated hashes for `external` and `random` providers
+## [0.0.7](.)
+- Updated `hashicorp/azurerm` provider
