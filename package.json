@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "0.1.11-s3d-1005",
+  "version": "0.1.11",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
