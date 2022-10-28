@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 
 # S3D AWS Account
+
 ## Overview
 This is the Terraform code for the S3D AWS Account. The code exists here open
 to public inspection so it can act as an example project.
@@ -24,3 +25,101 @@ Terraform and AWS communities.
 [code]: ./CODE-OF-CONDUCT.md
 [cont]: ./CONTRIBUTING.md
 [lice]: ./LICENSE.md
+
+## Requirements
+
+The following requirements are needed by this module:
+
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.3)
+
+- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.36.1)
+
+- <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.2)
+
+- <a name="requirement_random"></a> [random](#requirement\_random) (>=3.4.3)
+
+- <a name="requirement_time"></a> [time](#requirement\_time) (>=0.9.0)
+
+## Providers
+
+The following providers are used by this module:
+
+- <a name="provider_aws"></a> [aws](#provider\_aws) (>=4.36.1)
+
+## Modules
+
+The following Modules are called:
+
+### <a name="module_go_site"></a> [go\_site](#module\_go\_site)
+
+Source: github.com/s3d-club/terraform-aws-site
+
+Version: v0.1.13
+
+### <a name="module_mark_site"></a> [mark\_site](#module\_mark\_site)
+
+Source: github.com/s3d-club/terraform-aws-site
+
+Version: v0.1.13
+
+### <a name="module_name"></a> [name](#module\_name)
+
+Source: github.com/s3d-club/terraform-external-name
+
+Version: v0.1.14
+
+### <a name="module_site"></a> [site](#module\_site)
+
+Source: github.com/s3d-club/terraform-aws-site
+
+Version: v0.1.13
+
+### <a name="module_site_group"></a> [site\_group](#module\_site\_group)
+
+Source: github.com/s3d-club/terraform-aws-site-group
+
+Version: v0.1.32
+
+## Resources
+
+The following resources are used by this module:
+
+- [aws_vpc.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/vpc) (data source)
+
+## Required Inputs
+
+No required inputs.
+
+## Optional Inputs
+
+The following input variables are optional (have default values):
+
+### <a name="input_ec2_key_name"></a> [ec2\_key\_name](#input\_ec2\_key\_name)
+
+Description: EC2 Key Name
+
+The ec2 key name or null if an EC2 instance is not desired.
+
+Type: `string`
+
+Default: `null`
+
+## Outputs
+
+The following outputs are exported:
+
+### <a name="output_go_site"></a> [go\_site](#output\_go\_site)
+
+Description: n/a
+
+### <a name="output_mark_site"></a> [mark\_site](#output\_mark\_site)
+
+Description: n/a
+
+### <a name="output_site"></a> [site](#output\_site)
+
+Description: n/a
+
+### <a name="output_site_group"></a> [site\_group](#output\_site\_group)
+
+Description: n/a

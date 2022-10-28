@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 
 # S3D CLI
+
 ## Overview
 The `s3d` CLI tool is inspired by the many other great CLI commands we use on a
 daily basis. Our CLI is a useful day-to-day tool for working with AWS, GIT, GO,
@@ -19,3 +20,31 @@ screens explaining what they do.
 [code]: ./CODE-OF-CONDUCT.md
 [cont]: ./CONTRIBUTING.md
 [lice]: ./LICENSE.md
+
+## Requirements
+
+No requirements.
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Required Inputs
+
+No required inputs.
+
+## Optional Inputs
+
+No optional inputs.
+
+## Outputs
+
+No outputs.

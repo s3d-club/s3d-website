@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 
 # Website Project
+
 ## Overview
 The S3D website is dedicated to sharing knowledge and helping software
 developers succeed.
@@ -22,3 +23,31 @@ Our focuses is on the following.
 [code]: ./CODE-OF-CONDUCT.md
 [cont]: ./CONTRIBUTING.md
 [lice]: ./LICENSE.md
+
+## Requirements
+
+No requirements.
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Required Inputs
+
+No required inputs.
+
+## Optional Inputs
+
+No optional inputs.
+
+## Outputs
+
+No outputs.

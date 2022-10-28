@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 
 # S3D Python API
+
 ## Overview
 The club's Python based API exists in part to provide site management features
 and in part to act as a platform for learning about Go APIs.
@@ -23,3 +24,31 @@ source s3d-evn-init
 [code]: ./CODE-OF-CONDUCT.md
 [cont]: ./CONTRIBUTING.md
 [lice]: ./LICENSE.md
+
+## Requirements
+
+No requirements.
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Required Inputs
+
+No required inputs.
+
+## Optional Inputs
+
+No optional inputs.
+
+## Outputs
+
+No outputs.

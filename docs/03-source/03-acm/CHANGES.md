@@ -8,5 +8,12 @@ Plan:
 - Created our early versions
 - Forked upstream code
 
-## [0.1.13](.)
+## [0.1.13](.) to [0.1.15](.)
 - Removed dependency on `s3d-flow-json`
+- Updated `.terraform.lock.hcl` and `terraform.tf`
+- Updated `aws` version
+- Updated `name` module
+
+## [0.1.16](.)
+- Improved descriptions of variables and outputs
+- Removed `zone_id` variable _(now using data resource with `domain`)_
