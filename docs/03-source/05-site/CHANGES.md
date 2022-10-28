@@ -1,8 +1,8 @@
 # Changes
 Recently completed and planned work is tracked here.
 
-## [0.0.1](.) to [0.1.9](.)
+## [0.0.1](.) to [0.1.12](.)
 - Created early versions
 
-## [0.1.10](.)
-- Added `terraform.tf`
+## [0.1.13](.)
+- Removed dependency on `s3d-flow-json`
