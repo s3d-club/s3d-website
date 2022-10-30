@@ -5,4 +5,17 @@ Recently completed and planned work is tracked here.
 - Created early releases
 
 ## [0.1.14](.)
-- Removed dependency on `s3d-flow-json`
+- Improved descriptions of variables and outputs
+- Updated `aws` provider
+- Updated `name` module
+- Updated `site_group` module
+- Updated `site` module
+
+## [0.1.15](.)
+- Updated `go_site`
+- Updated `mark_site`
+- Updated `site`
+
+## [0.1.16](.)
+- Removed `ec2_key_name` variable and `terraform.tfvars` file
+- Updated `site_group` module

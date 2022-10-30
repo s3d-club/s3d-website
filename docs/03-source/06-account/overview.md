@@ -32,7 +32,7 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.3)
 
-- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.36.1)
+- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.37.0)
 
 - <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.2)
 
@@ -44,7 +44,7 @@ The following requirements are needed by this module:
 
 The following providers are used by this module:
 
-- <a name="provider_aws"></a> [aws](#provider\_aws) (>=4.36.1)
+- <a name="provider_aws"></a> [aws](#provider\_aws) (4.37.0)
 
 ## Modules
 
@@ -54,13 +54,13 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.13
+Version: v0.1.15
 
 ### <a name="module_mark_site"></a> [mark\_site](#module\_mark\_site)
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.13
+Version: v0.1.15
 
 ### <a name="module_name"></a> [name](#module\_name)
 
@@ -72,13 +72,13 @@ Version: v0.1.14
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.13
+Version: v0.1.15
 
 ### <a name="module_site_group"></a> [site\_group](#module\_site\_group)
 
 Source: github.com/s3d-club/terraform-aws-site-group
 
-Version: v0.1.32
+Version: v0.1.34
 
 ## Resources
 
@@ -92,17 +92,7 @@ No required inputs.
 
 ## Optional Inputs
 
-The following input variables are optional (have default values):
-
-### <a name="input_ec2_key_name"></a> [ec2\_key\_name](#input\_ec2\_key\_name)
-
-Description: EC2 Key Name
-
-The ec2 key name or null if an EC2 instance is not desired.
-
-Type: `string`
-
-Default: `null`
+No optional inputs.
 
 ## Outputs
 

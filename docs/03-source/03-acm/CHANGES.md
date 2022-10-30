@@ -17,3 +17,6 @@ Plan:
 ## [0.1.16](.)
 - Improved descriptions of variables and outputs
 - Removed `zone_id` variable _(now using data resource with `domain`)_
+
+## [0.1.17](.)
+- Fixed `aws_route53_zone` data lookup
