@@ -23,7 +23,7 @@ This is the ECR configuration we recommend.
 
 The following requirements are needed by this module:
 
-- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.3)
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
 
 - <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.37.0)
 
@@ -47,7 +47,7 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.14
+Version: v0.1.16
 
 ## Resources
 

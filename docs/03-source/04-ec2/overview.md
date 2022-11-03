@@ -25,7 +25,7 @@ define other templates when needed.
 
 The following requirements are needed by this module:
 
-- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.3)
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
 
 - <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.37.0)
 
@@ -49,19 +49,19 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.14
+Version: v0.1.16
 
 ### <a name="module_sg_egress"></a> [sg\_egress](#module\_sg\_egress)
 
 Source: github.com/s3d-club/terraform-aws-sg_egress_open
 
-Version: v0.1.14
+Version: v0.1.17
 
 ### <a name="module_sg_ingress"></a> [sg\_ingress](#module\_sg\_ingress)
 
 Source: github.com/s3d-club/terraform-aws-sg_ingress_ssh
 
-Version: v0.1.13
+Version: v0.1.16
 
 ## Resources
 
@@ -166,7 +166,7 @@ Description: A version used when fetching the setup script.
 
 Type: `string`
 
-Default: `"v0.1.15"`
+Default: `"v0.1.17"`
 
 ### <a name="input_ssh_cidr6s"></a> [ssh\_cidr6s](#input\_ssh\_cidr6s)
 

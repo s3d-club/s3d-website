@@ -43,7 +43,7 @@ the release.
 The first two lines of `CHANGES.md` are always the following.
 ```markdown
 # Changes
-Recently completed and planned work is tracked here.
+This file describes the project history as it relates to tagged versions.
 ```
 
 Readers who are not familar with the format will hopefully find the structure
@@ -59,7 +59,7 @@ Blocks for released versions use the format shown in the following example.
 
 ```markdown
 # Changes
-Recently completed and planned work is tracked here.
+This file describes the project history as it relates to tagged versions.
 
 Plan items
 - **TODO** Planned `wighat` feature

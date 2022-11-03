@@ -27,7 +27,7 @@ would otherwise need to be duplicated can be managed.
 
 The following requirements are needed by this module:
 
-- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.3)
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
 
 - <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.37.0)
 
@@ -51,25 +51,25 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-aws-ec2
 
-Version: v0.1.26
+Version: v0.1.29
 
 ### <a name="module_ecr"></a> [ecr](#module\_ecr)
 
 Source: github.com/s3d-club/terraform-aws-ecr
 
-Version: v0.1.15
+Version: v0.1.18
 
 ### <a name="module_name"></a> [name](#module\_name)
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.14
+Version: v0.1.16
 
 ### <a name="module_sg_ingress_open"></a> [sg\_ingress\_open](#module\_sg\_ingress\_open)
 
 Source: github.com/s3d-club/terraform-aws-sg_ingress_open
 
-Version: v0.1.12
+Version: v0.1.15
 
 ## Resources
 

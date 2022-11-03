@@ -1,11 +1,8 @@
 # Changes
-Recently completed and planned work is tracked here.
+This file describes the project history as it relates to tagged versions.
 
 ## [0.0.0](.) to [0.1.10](.)
 - Created early releases
 
-## [0.1.11](.) to [0.1.14](.)
+## [0.1.11](.) to [0.1.15](.)
 - General updates
-
-## [0.1.15-1000](.)
-- Updated

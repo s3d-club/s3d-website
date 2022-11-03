@@ -35,7 +35,7 @@ and still be comfortable for us.
 
 The following requirements are needed by this module:
 
-- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.3)
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
 
 - <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.2)
 
@@ -49,7 +49,7 @@ The following providers are used by this module:
 
 - <a name="provider_random"></a> [random](#provider\_random) (3.4.3)
 
-- <a name="provider_time"></a> [time](#provider\_time) (0.9.0)
+- <a name="provider_time"></a> [time](#provider\_time) (0.9.1)
 
 ## Modules
 
@@ -59,7 +59,7 @@ The following Modules are called:
 
 Source: git::https://github.com/s3d-club/terraform-external-changes
 
-Version: v0.1.17
+Version: v0.1.19
 
 ## Resources
 
@@ -143,6 +143,10 @@ The following outputs are exported:
 ### <a name="output_prefix"></a> [prefix](#output\_prefix)
 
 Description: The name prefix.
+
+### <a name="output_release"></a> [release](#output\_release)
+
+Description: The current release.
 
 ### <a name="output_tags"></a> [tags](#output\_tags)
 

@@ -26,7 +26,7 @@ be destroyed and redeployed in any case where the init scripting changes.
 
 The following requirements are needed by this module:
 
-- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.3)
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
 
 - <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) (>=3.29.1)
 
@@ -50,7 +50,7 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.14
+Version: v0.1.16
 
 ## Resources
 

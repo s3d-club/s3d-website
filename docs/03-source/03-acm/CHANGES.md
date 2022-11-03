@@ -1,5 +1,5 @@
 # Changes
-Recently completed and planned work is tracked here.
+This file describes the project history as it relates to tagged versions.
 
 Plan:
 - **TODO** remove upstream code and re-implement with a focus on simplicity
@@ -20,3 +20,14 @@ Plan:
 
 ## [0.1.17](.)
 - Fixed `aws_route53_zone` data lookup
+
+## [0.1.18](.)
+- Changed to use `-x` as suffix for pre-release versions
+
+## [0.1.19](.)
+- Upgraded `terraform` version
+- Upgraded `time` provider
+- Upgraded `name` module
+
+## [0.1.20](.)
+- Updated version

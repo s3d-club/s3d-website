@@ -1,15 +1,15 @@
 # Changes
-Recently completed and planned work is tracked here.
+This file describes the project history as it relates to tagged versions.
 
 ## [0.0.1](.) to [0.1.9](.)
 - Created early versions
 
-## [0.1.10](.)
-- Removed dependency on `s3d-flow-json`
-
-## [0.1.11](.)
+## [0.1.10](.) to [0.1.15](.)
+- Improved descriptions of variables and outputs
 - Updated `aws` provider
 - Updated `name` module
+- Upgraded `terraform` version
+- Upgraded `time` provider
 
-## [0.1.12](.) to [0.1.13](.)
-- Improved descriptions of variables and outputs
+## [0.1.16](.)
+- Updated version

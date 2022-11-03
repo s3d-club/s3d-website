@@ -30,7 +30,7 @@ Terraform and AWS communities.
 
 The following requirements are needed by this module:
 
-- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.3)
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
 
 - <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.37.0)
 
@@ -54,31 +54,31 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.15
+Version: v0.1.18
 
 ### <a name="module_mark_site"></a> [mark\_site](#module\_mark\_site)
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.15
+Version: v0.1.18
 
 ### <a name="module_name"></a> [name](#module\_name)
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.14
+Version: v0.1.16
 
 ### <a name="module_site"></a> [site](#module\_site)
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.15
+Version: v0.1.18
 
 ### <a name="module_site_group"></a> [site\_group](#module\_site\_group)
 
 Source: github.com/s3d-club/terraform-aws-site-group
 
-Version: v0.1.34
+Version: v0.1.40
 
 ## Resources
 

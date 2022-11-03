@@ -30,15 +30,15 @@ to present options we feel don't make sense.
 
 The following requirements are needed by this module:
 
-- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.3)
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
 
-- <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) (>=2.14.0)
+- <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) (>=2.15.0)
 
 ## Providers
 
 The following providers are used by this module:
 
-- <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) (2.14.0)
+- <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) (2.15.0)
 
 ## Modules
 

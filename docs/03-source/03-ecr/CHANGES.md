@@ -1,18 +1,16 @@
 # Changes
-Recently completed and planned work is tracked here.
+This file describes the project history as it relates to tagged versions.
 
 ## [0.0.0](.) [0.1.11](.)
 - Created early versions
 
-## [0.1.12](.)
-- Removed dependency on `s3d-flow-json`
-
-## [0.1.13](.)
-- Updated `name` module
-
-## [0.1.14](.)
-- Updated `aws` provider
-- Updated `.terraform.lock.hcl` and `terraform.tf`
-
-## [0.1.15](.)
+## [0.1.12](.) to [0.1.17](.)
 - Improved descriptions of variables and outputs
+- Updated `.terraform.lock.hcl` and `terraform.tf`
+- Updated `aws` provider
+- Updated `name` module
+- Upgraded `terraform` version
+- Upgraded `time` provider
+
+## [0.1.18](.)
+- Updated version

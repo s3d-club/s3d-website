@@ -7,7 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
-const version = '0.1.15-1000';
+const version = '0.1.15';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
