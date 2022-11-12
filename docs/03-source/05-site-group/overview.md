@@ -29,19 +29,19 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
 
-- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.37.0)
+- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.39.0)
 
-- <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.2)
+- <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.3)
 
 - <a name="requirement_random"></a> [random](#requirement\_random) (>=3.4.3)
 
-- <a name="requirement_time"></a> [time](#requirement\_time) (>=0.9.0)
+- <a name="requirement_time"></a> [time](#requirement\_time) (>=0.9.1)
 
 ## Providers
 
 The following providers are used by this module:
 
-- <a name="provider_aws"></a> [aws](#provider\_aws) (4.37.0)
+- <a name="provider_aws"></a> [aws](#provider\_aws) (4.39.0)
 
 ## Modules
 
@@ -51,25 +51,25 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-aws-ec2
 
-Version: v0.1.29
+Version: v0.1.30
 
 ### <a name="module_ecr"></a> [ecr](#module\_ecr)
 
 Source: github.com/s3d-club/terraform-aws-ecr
 
-Version: v0.1.18
+Version: v0.1.19
 
 ### <a name="module_name"></a> [name](#module\_name)
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.16
+Version: v0.1.17
 
 ### <a name="module_sg_ingress_open"></a> [sg\_ingress\_open](#module\_sg\_ingress\_open)
 
 Source: github.com/s3d-club/terraform-aws-sg_ingress_open
 
-Version: v0.1.15
+Version: v0.1.16
 
 ## Resources
 

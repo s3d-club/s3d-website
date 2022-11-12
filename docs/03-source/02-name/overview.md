@@ -37,11 +37,11 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
 
-- <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.2)
+- <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.3)
 
 - <a name="requirement_random"></a> [random](#requirement\_random) (>=3.4.3)
 
-- <a name="requirement_time"></a> [time](#requirement\_time) (>=0.9.0)
+- <a name="requirement_time"></a> [time](#requirement\_time) (>=0.9.1)
 
 ## Providers
 
@@ -59,7 +59,7 @@ The following Modules are called:
 
 Source: git::https://github.com/s3d-club/terraform-external-changes
 
-Version: v0.1.19
+Version: v0.1.20
 
 ## Resources
 

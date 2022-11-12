@@ -19,6 +19,11 @@ This file describes the project history as it relates to tagged versions.
 
 ## [0.1.16](.)
 - Sorted `variables.tf`
-- Upgraded `terraform` version
-- Upgraded `time` provider
-- Upgraded `changes` module
+- Updated `terraform` version
+- Updated `time` provider
+- Updated `changes` module
+
+## [0.1.17](.)
+- Updated `changes` module
+- Updated `external` provider
+- Updated `time` provider

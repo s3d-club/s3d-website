@@ -24,10 +24,13 @@ Plan:
 ## [0.1.18](.)
 - Changed to use `-x` as suffix for pre-release versions
 
-## [0.1.19](.)
-- Upgraded `terraform` version
-- Upgraded `time` provider
-- Upgraded `name` module
-
 ## [0.1.20](.)
-- Updated version
+- Updated `terraform` version
+- Updated `time` provider
+- Updated `name` module
+
+## [0.1.21](.)
+- Updated `aws` provider
+- Updated `external` provider
+- Updated `name` module
+- Updated `time` provider

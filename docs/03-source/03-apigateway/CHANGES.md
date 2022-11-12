@@ -9,7 +9,7 @@ This file describes the project history as it relates to tagged versions.
 - Added `terraform.tf`
 
 ## [0.0.6](.)
-- Upgraded `terraform` version
+- Updated `terraform` version
 
-## [0.0.7](.)
+## [0.0.7](.) to [0.0.8](.)
 - Updated version

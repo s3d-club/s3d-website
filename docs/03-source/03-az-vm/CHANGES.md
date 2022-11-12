@@ -12,9 +12,15 @@ This file describes the project history as it relates to tagged versions.
 
 ## [0.0.15](.)
 - Sorted `variables.tf`
-- Upgraded `name` module
-- Upgraded `terraform` version
-- Upgraded `time` provider
+- Updated `name` module
+- Updated `terraform` version
+- Updated `time` provider
 
 ## [0.0.16](.)
 - Updated version
+
+## [0.0.17](.)
+- Updated `azurerm` provider
+- Updated `external` provider
+- Updated `name` module
+- Updated `time` provider

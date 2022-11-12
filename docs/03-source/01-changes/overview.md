@@ -23,13 +23,13 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
 
-- <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.2)
+- <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.3)
 
 ## Providers
 
 The following providers are used by this module:
 
-- <a name="provider_external"></a> [external](#provider\_external) (2.2.2)
+- <a name="provider_external"></a> [external](#provider\_external) (2.2.3)
 
 ## Modules
 
