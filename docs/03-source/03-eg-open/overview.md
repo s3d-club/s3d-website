@@ -12,11 +12,6 @@ We enforce the following:
 - Our conventions for name, description, and tagging
 - Reduced arguments and attributes
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
-[awss]: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
 
 ## Requirements
 

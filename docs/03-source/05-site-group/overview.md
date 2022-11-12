@@ -18,10 +18,6 @@ The content of a site group should reflect the structure of team(s) supporting
 the sites. The group is a security context and a place where resources that
 would otherwise need to be duplicated can be managed.
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

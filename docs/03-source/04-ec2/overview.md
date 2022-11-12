@@ -16,10 +16,6 @@ define other templates when needed.
 | ------ | -------------------------------------------- |
 | `work` | A developer focued build with Amazon Linux 2 |
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

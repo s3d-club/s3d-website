@@ -15,11 +15,6 @@ Our module has the following attributes.
 This module focused on EKS functionality with a minimum of "extra" resources.
 
 <!-- LINKS -->
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
-[name]: https://www.s3d.club/docs/source/name/overview
 
 ## Requirements
 

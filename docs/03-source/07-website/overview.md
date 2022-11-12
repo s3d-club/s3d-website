@@ -19,10 +19,6 @@ Our focuses is on the following.
 1. Build community for software professionals with Dyslexia and Dyscalculia
 1. Raise awareness and share our experiences with Dyslexia and Dyscalculia
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

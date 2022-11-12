@@ -21,10 +21,6 @@ What we hope the code here will provide is an example. We will use our example
 project for reference when discussing techniques, issues, and problems in the
 Terraform and AWS communities.
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

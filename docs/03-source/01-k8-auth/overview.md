@@ -20,11 +20,6 @@ We are also not trying to be all things to all people with a ton of options. We
 have an opinonated view for the **proper** way to configure EKS and do not wish
 to present options we feel don't make sense.
 
-[eks0]: /docs/source/aws-eks/overview
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

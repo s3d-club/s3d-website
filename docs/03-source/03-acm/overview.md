@@ -27,11 +27,6 @@ Our own _frontend_ module provides a reduced set of options. We are not trying
 to be a general purpose module and as such we provide a reduced interface and
 then use the upstream module for our implementation.
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[fork]: https://github.com/terraform-aws-modules/terraform-aws-acm
-[lice]: ./LICENSE.md
 
 ## Requirements
 

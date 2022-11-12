@@ -17,10 +17,6 @@ manages the names and tags used for the image. The name of the image changes in
 any case where the script content changes because we want to force the image to
 be destroyed and redeployed in any case where the init scripting changes.
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

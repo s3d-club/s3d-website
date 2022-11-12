@@ -14,10 +14,6 @@ This is the ECR configuration we recommend.
 - `kms_key` keys so `tfsec` does not flag the implementation
 - `scan_on_push` enabled
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

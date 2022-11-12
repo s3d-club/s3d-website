@@ -20,10 +20,6 @@ sourced when working in this directory.
 source s3d-evn-init
 ```
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

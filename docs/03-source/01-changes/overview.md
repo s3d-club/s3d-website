@@ -12,10 +12,6 @@ useful for tracking resources.
 This module includes scripting for an `external` data resource.  The scriping
 depends on `git`, `sed`, and other tools that should exist in the environment.
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

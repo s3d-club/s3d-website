@@ -12,11 +12,6 @@ We provide the following.
 - An opinionated naming and tagging conventions
 - Reduced arguments and attributes
 
-[awss]: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

@@ -26,10 +26,6 @@ The name that results also has the prefix that was supplied as input and is
 limited to a set size. The final name will be unique enough to avoid collisions
 and still be comfortable for us.
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

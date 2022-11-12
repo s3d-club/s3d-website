@@ -16,10 +16,6 @@ Our CLI is written in Go lang using
 [spf13/cobra](https://github.com/spf13/cobra#overview). All commands have help
 screens explaining what they do.
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 

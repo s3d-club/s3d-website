@@ -28,10 +28,6 @@ will have a unique name that includes the prefix input. Input tags are ammended
 with information about this module's version and the set of tags are applied to
 resources.
 
-[chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
-[cont]: ./CONTRIBUTING.md
-[lice]: ./LICENSE.md
 
 ## Requirements
 
