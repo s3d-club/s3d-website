@@ -166,7 +166,7 @@ Description: A version used when fetching the setup script.
 
 Type: `string`
 
-Default: `"v0.1.17"`
+Default: `"v0.1.18"`
 
 ### <a name="input_ssh_cidr6s"></a> [ssh\_cidr6s](#input\_ssh\_cidr6s)
 

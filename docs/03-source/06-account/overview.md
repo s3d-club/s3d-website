@@ -78,7 +78,7 @@ Version: v0.1.19
 
 Source: github.com/s3d-club/terraform-aws-site-group
 
-Version: v0.1.42
+Version: v0.1.43
 
 ## Resources
 

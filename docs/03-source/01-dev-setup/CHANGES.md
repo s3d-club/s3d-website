@@ -10,5 +10,5 @@ This file describes the project history as it relates to tagged versions.
 - Configured `inotify`
 - Created a `V_` section at top of script
 
-## [0.1.17](.)
+## [0.1.18](.)
 - Updated versions
