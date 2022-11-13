@@ -12,3 +12,7 @@ This file describes the project history as it relates to tagged versions.
 
 ## [0.1.18](.)
 - Updated versions
+
+## [0.1.19](.)
+- Fixed `kubectl` setup
+- Improved `s3d-setup-ec2` script quoting
