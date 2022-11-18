@@ -15,9 +15,9 @@ provided using web protocols.
 
 The following requirements are needed by this module:
 
-- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.5)
 
-- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.39.0)
+- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.40.0)
 
 - <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.3)
 
@@ -29,7 +29,7 @@ The following requirements are needed by this module:
 
 The following providers are used by this module:
 
-- <a name="provider_aws"></a> [aws](#provider\_aws) (4.39.0)
+- <a name="provider_aws"></a> [aws](#provider\_aws) (4.40.0)
 
 - <a name="provider_time"></a> [time](#provider\_time) (0.9.1)
 
@@ -41,19 +41,19 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-aws-acm
 
-Version: v0.1.21
+Version: v0.1.24
 
 ### <a name="module_name"></a> [name](#module\_name)
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.17
+Version: v0.1.19
 
 ### <a name="module_waf"></a> [waf](#module\_waf)
 
 Source: github.com/s3d-club/terraform-aws-waf
 
-Version: v0.1.15
+Version: v0.1.18
 
 ## Resources
 
@@ -116,6 +116,14 @@ Type: `string`
 
 Default: `"PriceClass_100"`
 
+### <a name="input_default_root_object"></a> [default\_root\_object](#input\_default\_root\_object)
+
+Description: The Cloudfront Default Root Object.
+
+Type: `string`
+
+Default: `"index.html"`
+
 ### <a name="input_enable_ip6"></a> [enable\_ip6](#input\_enable\_ip6)
 
 Description: An option to enable IP6 addressing.
@@ -164,6 +172,14 @@ Type: `string`
 
 Default: `"www"`
 
+### <a name="input_single_page_application"></a> [single\_page\_application](#input\_single\_page\_application)
+
+Description: True if this is a single page application site
+
+Type: `bool`
+
+Default: `true`
+
 ### <a name="input_subject_alternative_names"></a> [subject\_alternative\_names](#input\_subject\_alternative\_names)
 
 Description: A subject alternative name.
@@ -185,6 +201,14 @@ Default: `null`
 Description: A list of redirects for the WAF.
 
 Type: `map(string)`
+
+Default: `null`
+
+### <a name="input_www_bucket"></a> [www\_bucket](#input\_www\_bucket)
+
+Description: The WWW Bucket name or null to use a random name.
+
+Type: `string`
 
 Default: `null`
 

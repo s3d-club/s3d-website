@@ -10,20 +10,16 @@ This file describes the project history as it relates to tagged versions.
 - Removed dependency on `s3d-flow-json`
 - Updated `.terraform.lock.hcl`
 
-## [0.1.12](.) to [0.1.14](.)
+## [0.1.12](.) to [0.1.15](.)
+- Changed to use `-x` as suffix for pre-release versions
 - Improved descriptions of variables and outputs
 - Updated `changes` module
 
-## [0.1.15](.)
-- Changed to use `-x` as suffix for pre-release versions
-
-## [0.1.16](.)
+## [0.1.16](.) to [0.1.18](.)
 - Sorted `variables.tf`
 - Updated `terraform` version
 - Updated `time` provider
 - Updated `changes` module
 
-## [0.1.17](.)
-- Updated `changes` module
-- Updated `external` provider
-- Updated `time` provider
+## [0.1.19](.)
+- Reformated `terraform.tf`

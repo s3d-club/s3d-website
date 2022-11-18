@@ -18,19 +18,10 @@ Plan:
 - Improved descriptions of variables and outputs
 - Removed `zone_id` variable _(now using data resource with `domain`)_
 
-## [0.1.17](.)
-- Fixed `aws_route53_zone` data lookup
-
-## [0.1.18](.)
+## [0.1.17](.) to [0.1.23](.)
 - Changed to use `-x` as suffix for pre-release versions
+- Fixed `aws_route53_zone` data lookup
+- Updated modules and providers
 
-## [0.1.20](.)
-- Updated `terraform` version
-- Updated `time` provider
-- Updated `name` module
-
-## [0.1.21](.)
+## [0.1.24](.)
 - Updated `aws` provider
-- Updated `external` provider
-- Updated `name` module
-- Updated `time` provider

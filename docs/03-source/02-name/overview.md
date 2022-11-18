@@ -31,7 +31,7 @@ and still be comfortable for us.
 
 The following requirements are needed by this module:
 
-- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.5)
 
 - <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.3)
 
@@ -55,7 +55,7 @@ The following Modules are called:
 
 Source: git::https://github.com/s3d-club/terraform-external-changes
 
-Version: v0.1.20
+Version: v0.1.21
 
 ## Resources
 

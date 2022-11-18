@@ -17,7 +17,7 @@ depends on `git`, `sed`, and other tools that should exist in the environment.
 
 The following requirements are needed by this module:
 
-- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.4)
+- <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.5)
 
 - <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.3)
 
