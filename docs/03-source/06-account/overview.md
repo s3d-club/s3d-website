@@ -28,7 +28,7 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.5)
 
-- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.40.0)
+- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.41.0)
 
 - <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.3)
 
@@ -40,7 +40,7 @@ The following requirements are needed by this module:
 
 The following providers are used by this module:
 
-- <a name="provider_aws"></a> [aws](#provider\_aws) (4.40.0)
+- <a name="provider_aws"></a> [aws](#provider\_aws) (4.41.0)
 
 ## Modules
 
@@ -50,31 +50,31 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.24
+Version: v0.1.28
 
 ### <a name="module_mark_site"></a> [mark\_site](#module\_mark\_site)
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.24
+Version: v0.1.28
 
 ### <a name="module_name"></a> [name](#module\_name)
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.19
+Version: v0.1.20
 
 ### <a name="module_site"></a> [site](#module\_site)
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.24
+Version: v0.1.28
 
 ### <a name="module_site_group"></a> [site\_group](#module\_site\_group)
 
 Source: github.com/s3d-club/terraform-aws-site-group
 
-Version: v0.1.47
+Version: v0.1.51
 
 ## Resources
 

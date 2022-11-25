@@ -5,27 +5,12 @@ sidebar_position: 1
 # AWS ACM Module
 
 ## Overview
-This is a fork of the [github.com/terraform-aws-modules][fork] module.
+This is a simplified _frontend_ for the [terraform-aws-acm][tacm] module. We use
+a subset of the functionality from the very powerful [terraform-aws-acm][tacm]
+module.
 
-Forking the module has ramifactions in terms of security. With this fork we know
-that the sources from [github.com/terraform-aws-modules][fork] can not be
-altered unless our GitHub account is hacked or GitHub it's self is hacked.
-
-Had we instead simply had module in GitHub that referenced the upstream location
-our understanding of the operation of Terraform is that a request to Terraform
-Registry would simply request from the `terraform-aws-modules` GitHub
-organization. If that organisation were to have been compromized an attacker
-could potentionally inject their code by rewriting a tag with the result that we
-would execute untrusted code using our security credentials.
-
-In the interest of safety, we are forking the module to our account with the
-fork in place a user of the `s3d-club` executing code from our repository does
-not automatically execute code from downstream repositories that we do not
-manage.
-
-Our own _frontend_ module provides a reduced set of options. We are not trying
-to be a general purpose module and as such we provide a reduced interface and
-then use the upstream module for our implementation.
+Our module provides a reduced set of options with only three inputs and one
+output.
 
 
 ## Requirements
@@ -34,7 +19,7 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.5)
 
-- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.40.0)
+- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.41.0)
 
 - <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.3)
 
@@ -46,7 +31,7 @@ The following requirements are needed by this module:
 
 The following providers are used by this module:
 
-- <a name="provider_aws"></a> [aws](#provider\_aws) (4.40.0)
+- <a name="provider_aws"></a> [aws](#provider\_aws) (4.41.0)
 
 ## Modules
 
@@ -56,13 +41,13 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.19
+Version: v0.1.20
 
 ### <a name="module_upstream"></a> [upstream](#module\_upstream)
 
-Source: ./upstream
+Source: git::https://github.com/terraform-aws-modules/terraform-aws-acm.git
 
-Version:
+Version: v4.2.0
 
 ## Resources
 

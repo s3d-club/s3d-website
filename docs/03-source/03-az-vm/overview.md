@@ -24,7 +24,7 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.5)
 
-- <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) (>=3.32.0)
+- <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) (>=3.33.0)
 
 - <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.3)
 
@@ -36,7 +36,7 @@ The following requirements are needed by this module:
 
 The following providers are used by this module:
 
-- <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) (3.32.0)
+- <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) (3.33.0)
 
 ## Modules
 
@@ -46,7 +46,7 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.19
+Version: v0.1.20
 
 ## Resources
 

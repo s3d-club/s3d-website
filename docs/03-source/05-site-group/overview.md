@@ -25,7 +25,7 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.5)
 
-- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.40.0)
+- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.41.0)
 
 - <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.3)
 
@@ -37,7 +37,7 @@ The following requirements are needed by this module:
 
 The following providers are used by this module:
 
-- <a name="provider_aws"></a> [aws](#provider\_aws) (4.40.0)
+- <a name="provider_aws"></a> [aws](#provider\_aws) (4.41.0)
 
 ## Modules
 
@@ -47,31 +47,32 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-aws-ec2
 
-Version: v0.1.35
+Version: v0.1.37
 
 ### <a name="module_ecr"></a> [ecr](#module\_ecr)
 
 Source: github.com/s3d-club/terraform-aws-ecr
 
-Version: v0.1.23
+Version: v0.1.25
 
 ### <a name="module_name"></a> [name](#module\_name)
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.19
+Version: v0.1.20
 
 ### <a name="module_sg_ingress_open"></a> [sg\_ingress\_open](#module\_sg\_ingress\_open)
 
 Source: github.com/s3d-club/terraform-aws-sg_ingress_open
 
-Version: v0.1.19
+Version: v0.1.21
 
 ## Resources
 
 The following resources are used by this module:
 
 - [aws_dynamodb_table.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/dynamodb_table) (resource)
+- [aws_iam_user.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_user) (resource)
 - [aws_s3_bucket.log](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket) (resource)
 - [aws_s3_bucket.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket) (resource)
 - [aws_s3_bucket_acl.log](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_acl) (resource)
@@ -168,6 +169,15 @@ Description: A list of addresses for open egress.
 Type: `list(string)`
 
 Default: `null`
+
+### <a name="input_enable_admin_iam_user"></a> [enable\_admin\_iam\_user](#input\_enable\_admin\_iam\_user)
+
+Description: An option to enable an IAM user intended for adminstration of the site  
+group.
+
+Type: `bool`
+
+Default: `false`
 
 ### <a name="input_enable_ec2"></a> [enable\_ec2](#input\_enable\_ec2)
 

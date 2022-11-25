@@ -55,7 +55,7 @@ The following Modules are called:
 
 Source: git::https://github.com/s3d-club/terraform-external-changes
 
-Version: v0.1.21
+Version: v0.1.22
 
 ## Resources
 

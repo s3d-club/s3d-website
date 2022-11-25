@@ -4,10 +4,11 @@ This file describes the project history as it relates to tagged versions.
 ## [0.0.0](.) [0.1.13](.)
 - Created early releases
 
-## [0.1.14](.) to [0.1.24](.)
+## [0.1.14](.) to [0.1.31](.)
 - Improved descriptions of variables and outputs
 - Removed `ec2_key_name` variable and `terraform.tfvars` file
-- Updated modules and providers
+- Updated docs
+- Updated providers and modules
 
-## [0.1.25](.) to [0.1.26](.)
+## [0.1.32](.)
 - Updated `aws` provider

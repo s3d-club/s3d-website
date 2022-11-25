@@ -23,7 +23,7 @@ The following requirements are needed by this module:
 
 - <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) (>=1.3.5)
 
-- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.40.0)
+- <a name="requirement_aws"></a> [aws](#requirement\_aws) (>=4.41.0)
 
 - <a name="requirement_external"></a> [external](#requirement\_external) (>=2.2.3)
 
@@ -35,7 +35,7 @@ The following requirements are needed by this module:
 
 The following providers are used by this module:
 
-- <a name="provider_aws"></a> [aws](#provider\_aws) (4.40.0)
+- <a name="provider_aws"></a> [aws](#provider\_aws) (4.41.0)
 
 ## Modules
 
@@ -45,19 +45,19 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-external-name
 
-Version: v0.1.19
+Version: v0.1.20
 
 ### <a name="module_sg_egress"></a> [sg\_egress](#module\_sg\_egress)
 
 Source: github.com/s3d-club/terraform-aws-sg_egress_open
 
-Version: v0.1.22
+Version: v0.1.24
 
 ### <a name="module_sg_ingress"></a> [sg\_ingress](#module\_sg\_ingress)
 
 Source: github.com/s3d-club/terraform-aws-sg_ingress_ssh
 
-Version: v0.1.20
+Version: v0.1.22
 
 ## Resources
 
@@ -162,7 +162,7 @@ Description: A version used when fetching the setup script.
 
 Type: `string`
 
-Default: `"v0.1.19"`
+Default: `"v0.1.22"`
 
 ### <a name="input_ssh_cidr6s"></a> [ssh\_cidr6s](#input\_ssh\_cidr6s)
 

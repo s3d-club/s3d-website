@@ -15,11 +15,12 @@ This file describes the project history as it relates to tagged versions.
 - Improved descriptions of variables and outputs
 - Updated `changes` module
 
-## [0.1.16](.) to [0.1.18](.)
+## [0.1.16](.) to [0.1.19](.)
+- Reformated `terraform.tf`
 - Sorted `variables.tf`
+- Updated `changes` module
 - Updated `terraform` version
 - Updated `time` provider
-- Updated `changes` module
 
-## [0.1.19](.)
-- Reformated `terraform.tf`
+## [0.1.20](.)
+- Updated docs

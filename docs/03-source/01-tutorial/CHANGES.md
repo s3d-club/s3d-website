@@ -1,11 +1,8 @@
 # Changes
 This file describes the project history as it relates to tagged versions.
 
-## [0.0.1](.) to [0.0.5](.)
+## [0.0.1](.) to [0.0.7](.)
 - Added early versions
 
-## [0.0.6](.)
-- Fixed typo on README
-
-## [0.0.7](.)
-- Updated version
+## [0.0.8](.)
+- Updated docs
