@@ -5,13 +5,10 @@ This file describes the project history as it relates to tagged versions.
 - Created early releases
 
 ## [0.1.11](.) to [0.1.18](.)
-- General updates
+- Updated website
 
 ## [0.1.19](.) to [0.1.20](.)
 - Updated `docusaurus`
 
-## [0.1.21](.) to [0.1.22](.)
-- General updates
-
-## [0.1.23](.)
-- Updated docs
+## [0.1.21](.) to [0.1.24](.)
+- Updated website

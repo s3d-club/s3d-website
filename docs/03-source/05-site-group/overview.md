@@ -47,7 +47,7 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-aws-ec2
 
-Version: v0.1.37
+Version: v0.1.39
 
 ### <a name="module_ecr"></a> [ecr](#module\_ecr)
 

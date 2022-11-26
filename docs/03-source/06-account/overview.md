@@ -50,13 +50,13 @@ The following Modules are called:
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.28
+Version: v0.1.29
 
 ### <a name="module_mark_site"></a> [mark\_site](#module\_mark\_site)
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.28
+Version: v0.1.29
 
 ### <a name="module_name"></a> [name](#module\_name)
 
@@ -68,13 +68,13 @@ Version: v0.1.20
 
 Source: github.com/s3d-club/terraform-aws-site
 
-Version: v0.1.28
+Version: v0.1.29
 
 ### <a name="module_site_group"></a> [site\_group](#module\_site\_group)
 
 Source: github.com/s3d-club/terraform-aws-site-group
 
-Version: v0.1.51
+Version: v0.1.53
 
 ## Resources
 
